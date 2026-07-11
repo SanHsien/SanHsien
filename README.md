@@ -1,10 +1,13 @@
 # SanHsien
 
-Local-first tools, practical automation, and AI-assisted workflows.  
-本機優先工具、實用自動化，以及 AI 輔助工作流。
+I build small Windows-first tools and workflow automations, mostly with Python, JavaScript, and AI-assisted development.  
+我主要製作 Windows 優先的小工具與工作流自動化，常用 Python、JavaScript 與 AI 協作開發。
 
-I build small, practical tools around local workflows, content/media processing, and AI-assisted development. This profile only lists projects that are suitable for public description; private or context-specific systems are intentionally left out.  
-我主要做本機工具、自動化流程，以及和 AI 輔助工作流有關的實用專案。這裡只放適合公開的專案與描述；內部、私人或特定場域使用的系統不放在個人頁介紹。
+The common thread across my projects is practical delivery: runnable tools, clear README files, packaging steps, release notes, and verification records.  
+我的專案重點是實際交付：能執行的工具、清楚的 README、打包步驟、release notes 與驗證紀錄。
+
+Traditional Chinese first; English when useful for public-facing tools.  
+繁體中文優先；適合公開使用的工具會補英文說明。
 
 ## What I Build / 我做的方向
 
@@ -14,42 +17,27 @@ I build small, practical tools around local workflows, content/media processing,
   **內容與媒體流程**：下載、整理、轉檔、貼圖製作、批次處理。
 - **AI-assisted tools**: prompts, browser helpers, documentation workflows, agent-assisted development.  
   **AI 輔助工具**：提示詞、瀏覽器輔助、文件整理、agent 協作開發。
-- **Documentation-first projects**: README, packaging steps, release notes, and verification records are maintained with the code.  
+- **Documentation-first projects**: README, packaging steps, release notes, and verification records maintained with the code.  
   **文件先行的專案**：README、打包步驟、release notes、驗證紀錄會跟著程式一起維護。
-
-## Vibe Coding / AI 協作開發
-
-I use AI coding agents and vibe coding to speed up prototyping, refactoring, documentation, tests, and release preparation.  
-我會使用 AI coding agents 與 vibe coding 來加速雛形、重構、文件整理、測試補齊與 release 準備。
-
-I still treat generated code as unfinished until it can be run, tested, packaged, or clearly documented with its limits.  
-但我不把「AI 產生了程式」當成完成；能交付的狀態至少要能被實際執行、測試、打包，或用文件清楚交代限制。
 
 ## Public Projects / 公開專案
 
-| Project | English | 繁體中文 | Stack |
-| --- | --- | --- | --- |
-| [openshelf](https://github.com/SanHsien/openshelf) | Batch export for Google Play Books: downloads DRM-free EPUB/PDF files and keeps official `.acsm` files for DRM-protected books. | 批次匯出 Google Play 圖書；無 DRM 書下載 EPUB/PDF，DRM 書保留官方 `.acsm`。 | Python, Windows EXE |
-| [yt_fetch](https://github.com/SanHsien/yt_fetch) | Lightweight portable YouTube channel downloader with GUI, batch imports, cookies, and Windows portable release. | 輕巧可攜的 YouTube 頻道下載工具，支援 GUI、批次匯入、cookies 與 Windows 免安裝版本。 | Python, yt-dlp |
-| [sticker-forge](https://github.com/SanHsien/sticker-forge) | Local-first chat sticker pack toolkit for LINE and multi-platform exports. | 本機優先的聊天貼圖包製作工具，支援 LINE 與多平台匯出。 | Python, pywebview, PyInstaller |
-| [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant) | LINE × OpenAI chatbot for chatting with a self-hosted AI assistant, image generation, image understanding, and search. Chinese docs first. | LINE × OpenAI 聊天機器人，可和自架 AI 助理聊天、生圖、看圖與搜尋；中文文件為主。 | JavaScript, LINE, OpenAI |
+| Project | English | 繁體中文 | Stack | Status |
+| --- | --- | --- | --- | --- |
+| [openshelf](https://github.com/SanHsien/openshelf) | Batch export for Google Play Books: downloads DRM-free EPUB/PDF files and keeps official `.acsm` files for DRM-protected books. | 批次匯出 Google Play 圖書；無 DRM 書下載 EPUB/PDF，DRM 書保留官方 `.acsm`。 | Python, Windows EXE | Active, Windows release |
+| [yt_fetch](https://github.com/SanHsien/yt_fetch) | Lightweight portable YouTube channel downloader with GUI, batch imports, cookies, and Windows portable release. | 輕巧可攜的 YouTube 頻道下載工具，支援 GUI、批次匯入、cookies 與 Windows 免安裝版本。 | Python, yt-dlp | Active, Windows release |
+| [sticker-forge](https://github.com/SanHsien/sticker-forge) | Local-first chat sticker pack toolkit for LINE and multi-platform exports. | 本機優先的聊天貼圖包製作工具，支援 LINE 與多平台匯出。 | Python, pywebview, PyInstaller | Active, local-first |
+| [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant) | LINE × OpenAI chatbot for chatting with a self-hosted AI assistant, image generation, image understanding, and search. Chinese docs first. | LINE × OpenAI 聊天機器人，可和自架 AI 助理聊天、生圖、看圖與搜尋；中文文件為主。 | JavaScript, LINE, OpenAI | Public fork, customized docs |
 
 ## Private Work / 非公開工作
 
-Some of my work is private or context-specific, so I do not list repository names, organization details, or sensitive workflows here. The general areas include:  
-部分工作屬於私人或特定場域用途，因此不列出 repo 名稱、組織資訊或敏感流程。大致包含：
-
-- **Internal workflow tools**: borrowing/returning flows, reservation flows, approvals, search, and export screens.  
-  **內部流程工具**：借還、預約、審核、查詢與匯出流程。
-- **Data collection systems**: form-based uploads, review dashboards, and permission-controlled backends.  
-  **資料收集系統**：表單上傳、後台審查、權限控管。
-- **Office automation**: spreadsheet-based tools, batch imports/exports, and report generation.  
-  **辦公自動化**：試算表工具、批次匯入匯出、報表產生。
-- **Maintenance and handover**: documentation, validation scripts, release notes, and handover records.  
-  **維護與交付**：文件、驗證腳本、release notes、交接紀錄。
+Some work is private or context-specific, so I summarize only the general shape: internal workflow tools, data collection systems, office automation, and maintenance handover documents.  
+部分工作屬於私人或特定場域用途，因此只概略描述能力範圍：內部流程工具、資料收集系統、辦公自動化，以及維護交接文件。
 
 ## How I Work / 工作方式
 
+- **Vibe coding with verification**: I use AI coding agents for prototyping, refactoring, documentation, tests, and release prep, but generated code is not done until it can run or its limits are documented.  
+  **有驗證的 vibe coding**：我會用 AI coding agents 加速雛形、重構、文件、測試與 release 準備，但 AI 產生的程式不等於完成，必須能執行或清楚交代限制。
 - **Local-first by default**: if it can run on the user's machine, I avoid starting with a hosted backend.  
   **預設本機優先**：能在使用者電腦處理，就不先做 hosted backend。
 - **Privacy-aware**: user files, images, and tokens should not be sent to unnecessary services.  
