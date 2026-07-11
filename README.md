@@ -29,6 +29,7 @@ I still treat generated code as unfinished until it can be run, tested, packaged
 | [openshelf](https://github.com/SanHsien/openshelf) | Batch export for Google Play Books: downloads DRM-free EPUB/PDF files and keeps official `.acsm` files for DRM-protected books. | Python, Windows EXE |
 | [yt_fetch](https://github.com/SanHsien/yt_fetch) | Lightweight portable YouTube channel downloader with GUI, batch imports, cookies, and Windows portable release. | Python, yt-dlp |
 | [sticker-forge](https://github.com/SanHsien/sticker-forge) | Local-first chat sticker pack toolkit for LINE and multi-platform exports. | Python, pywebview, PyInstaller |
+| [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant) | LINE × OpenAI chatbot for chatting with a self-hosted AI assistant, image generation, image understanding, and search. Chinese docs first. | JavaScript, LINE, OpenAI |
 
 ## How I Work
 
