@@ -24,7 +24,6 @@ Local-first tools, practical automation, and AI-assisted workflows.
 | [openshelf](https://github.com/SanHsien/openshelf) | 批次匯出 Google Play 圖書；無 DRM 書下載 EPUB/PDF，DRM 書保留官方 `.acsm`。 | Python, Windows EXE |
 | [yt_fetch](https://github.com/SanHsien/yt_fetch) | 輕巧可攜的 YouTube 頻道下載工具，支援 GUI、批次匯入、cookies 與 Windows 免安裝。 | Python, yt-dlp |
 | [sticker-forge](https://github.com/SanHsien/sticker-forge) | 本機優先的聊天貼圖包製作工具，支援 LINE 與多平台匯出。 | Python, pywebview, PyInstaller |
-| [chatgpt-sidebar](https://github.com/SanHsien/chatgpt-sidebar) | Chrome 側邊欄摘要工具，針對目前頁面產生中文摘要。 | JavaScript, Chrome Extension |
 
 ## How I Work
 
@@ -41,7 +40,6 @@ Local-first tools, practical automation, and AI-assisted workflows.
 ![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
 ![PyInstaller](https://img.shields.io/badge/PyInstaller-306998?logo=python&logoColor=white)
-![Chrome Extensions](https://img.shields.io/badge/Chrome_Extensions-4285F4?logo=googlechrome&logoColor=white)
 
 ## Notes
 
