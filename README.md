@@ -12,6 +12,9 @@ Practical delivery matters to me: runnable tools, clear README files, packaging 
 - **Content and media workflows / 內容與媒體流程**：下載、整理、轉檔、貼圖製作、批次處理。
 - **AI-assisted development / AI 協作開發**：prompt、文件整理、agent 協作、vibe coding with verification。
 
+Current emphasis: small tools that can be downloaded, run, checked, and maintained without unnecessary services.  
+目前重點：可下載、可執行、可驗證、可維護，且不依賴不必要服務的小工具。
+
 ## Public Projects / 公開專案
 
 ### [openshelf](https://github.com/SanHsien/openshelf)
@@ -49,8 +52,8 @@ Some work is private or context-specific, so I only summarize the general shape:
 
 - Excel VBA tools for inventory, purchasing/sales records, reporting, and office workflows.  
   使用 Excel VBA 製作進銷存、採購／銷售紀錄、報表與辦公流程工具。
-- Palm and Android mobile/tablet apps for field visits, sales records, and online result submission.  
-  製作 Palm 與 Android 手機／平板版本的拜訪、銷售紀錄與連網即時回傳成果程式。
+- Earlier Palm and Android mobile/tablet apps for field visits, sales records, and online result submission.  
+  早期曾製作 Palm 與 Android 手機／平板版本的拜訪、銷售紀錄與連網即時回傳成果程式。
 
 ## How I Work / 工作方式
 
