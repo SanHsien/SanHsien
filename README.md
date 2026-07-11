@@ -34,6 +34,20 @@ I still treat generated code as unfinished until it can be run, tested, packaged
 | [sticker-forge](https://github.com/SanHsien/sticker-forge) | Local-first chat sticker pack toolkit for LINE and multi-platform exports. | 本機優先的聊天貼圖包製作工具，支援 LINE 與多平台匯出。 | Python, pywebview, PyInstaller |
 | [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant) | LINE × OpenAI chatbot for chatting with a self-hosted AI assistant, image generation, image understanding, and search. Chinese docs first. | LINE × OpenAI 聊天機器人，可和自架 AI 助理聊天、生圖、看圖與搜尋；中文文件為主。 | JavaScript, LINE, OpenAI |
 
+## Private Work / 非公開工作
+
+Some of my work is private or context-specific, so I do not list repository names, organization details, or sensitive workflows here. The general areas include:  
+部分工作屬於私人或特定場域用途，因此不列出 repo 名稱、組織資訊或敏感流程。大致包含：
+
+- **Internal workflow tools**: borrowing/returning flows, reservation flows, approvals, search, and export screens.  
+  **內部流程工具**：借還、預約、審核、查詢與匯出流程。
+- **Data collection systems**: form-based uploads, review dashboards, and permission-controlled backends.  
+  **資料收集系統**：表單上傳、後台審查、權限控管。
+- **Office automation**: spreadsheet-based tools, batch imports/exports, and report generation.  
+  **辦公自動化**：試算表工具、批次匯入匯出、報表產生。
+- **Maintenance and handover**: documentation, validation scripts, release notes, and handover records.  
+  **維護與交付**：文件、驗證腳本、release notes、交接紀錄。
+
 ## How I Work / 工作方式
 
 - **Local-first by default**: if it can run on the user's machine, I avoid starting with a hosted backend.  
