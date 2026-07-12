@@ -40,10 +40,10 @@ Local-first chat sticker pack toolkit for LINE and multi-platform exports.
 
 ### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
 
-LINE × OpenAI chatbot for self-hosted AI assistant workflows; Chinese docs first.  
-LINE × OpenAI 聊天機器人，可用於自架 AI 助理流程；中文文件為主。
+LINE × OpenAI chatbot for a self-hosted AI assistant: chat, image generation, vision, and web search in LINE. Chinese docs first, with its own docs site, CI, and tagged releases.  
+LINE × OpenAI 聊天機器人（自架 AI 助理）：在 LINE 聊天、生圖、看圖、搜尋；中文文件為主，附獨立文件站、CI 與版本 release。
 
-`JavaScript` `LINE` `OpenAI` `Public fork` `Chinese-first adaptation`
+`JavaScript` `LINE` `OpenAI` `Public fork` `Chinese-first` `Docs site`
 
 ## Private Work / 非公開工作
 
