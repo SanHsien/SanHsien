@@ -40,10 +40,11 @@ Local-first chat sticker pack toolkit for LINE and multi-platform exports.
 
 ### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
 
-LINE × OpenAI chatbot for a self-hosted AI assistant: chat, image generation, vision, and web search in LINE. Chinese docs first, with its own docs site, CI, and tagged releases.  
-LINE × OpenAI 聊天機器人（自架 AI 助理）：在 LINE 聊天、生圖、看圖、搜尋；中文文件為主，附獨立文件站、CI 與版本 release。
+Self-hosted LINE × OpenAI personal assistant with chat, image generation, vision, search, durable Supabase workflows, Google Calendar events, tasks, reminders, and weather. `v5.0.0` completes the first real LINE assistant loop; Chinese docs first, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
 
-`JavaScript` `LINE` `OpenAI` `Public fork` `Chinese-first` `Docs site`
+自架的 LINE × OpenAI 個人助理，支援聊天、生圖、看圖、搜尋、Supabase durable 流程、Google Calendar 行程、任務、提醒與天氣。`v5.0.0` 已完成第一個真實 LINE 助理閉環；中文文件為主，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
+
+`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `v5.0.0` `Public fork`
 
 ## Private Work / 非公開工作
 
