@@ -40,11 +40,11 @@ Local-first chat sticker pack toolkit for LINE and multi-platform exports.
 
 ### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
 
-Self-hosted LINE × OpenAI personal assistant with chat, image generation, vision, search, durable Supabase workflows, Google Calendar events, tasks, reminders, and weather. `v5.0.0` completes the first real LINE assistant loop; Chinese docs first, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
+Self-hosted LINE × OpenAI personal assistant with chat, image generation, vision, search, durable Supabase workflows, Google Calendar event management and inbound sync, Google Tasks mirroring, reminders, and weather. `v5.8.1` hardens cross-service synchronization; Chinese docs first, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
 
-自架的 LINE × OpenAI 個人助理，支援聊天、生圖、看圖、搜尋、Supabase durable 流程、Google Calendar 行程、任務、提醒與天氣。`v5.0.0` 已完成第一個真實 LINE 助理閉環；中文文件為主，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
+自架的 LINE × OpenAI 個人助理，支援聊天、生圖、看圖、搜尋、Supabase durable 流程、Google Calendar 行程管理與外部修改同步、Google Tasks 鏡像、提醒與天氣。`v5.8.1` 強化跨服務同步一致性；中文文件為主，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
 
-`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `v5.0.0` `Public fork`
+`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `v5.8.1` `Public fork`
 
 ## Private Work / 非公開工作
 
