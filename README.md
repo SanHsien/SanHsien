@@ -41,11 +41,11 @@ Local-first chat sticker pack toolkit for LINE and multi-platform exports.
 
 ### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
 
-Self-hosted LINE × OpenAI personal assistant that brings chat, voice, vision, image generation, sourced search, weather, Google Calendar/Tasks, and durable reminders into a familiar LINE conversation. `v6.0.1` is independently maintained and has completed real LINE/Supabase/Google acceptance, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
+Self-hosted LINE × OpenAI personal assistant that brings chat, voice, vision, image generation, sourced search, weather, Google Calendar/Tasks, and durable reminders into a familiar LINE conversation. Independently maintained and verified with real LINE/Supabase/Google acceptance, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
 
-自架的 LINE × OpenAI 個人助理，把聊天、語音、看圖、生圖、附來源搜尋、天氣、Google Calendar／Tasks 與可靠提醒放進熟悉的 LINE 對話。準備 API 額度即可替自己或家人建立 AI 入口，不必先學新的 AI App。`v6.0.1` 已獨立維護並完成真實 LINE／Supabase／Google 驗收，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
+自架的 LINE × OpenAI 個人助理，把聊天、語音、看圖、生圖、附來源搜尋、天氣、Google Calendar／Tasks 與可靠提醒放進熟悉的 LINE 對話。準備 API 額度即可替自己或家人建立 AI 入口，不必先學新的 AI App。專案已獨立維護並完成真實 LINE／Supabase／Google 驗收，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
 
-`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `v6.0.1` `Independent`
+`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `Independent`
 
 ## Private Work / 非公開工作
 
