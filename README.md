@@ -1,7 +1,7 @@
 # SanHsien
 
-I build small Windows-first tools and workflow automations, mostly with Python, JavaScript, and AI-assisted development.  
-我主要製作 Windows 優先的小工具與工作流自動化，常用 Python、JavaScript 與 AI 協作開發。
+I build practical Windows-first tools, workflow automations, and self-hosted AI assistants, mostly with Python, JavaScript, and AI-assisted development.<br>
+我主要製作實用的 Windows 優先工具、工作流自動化與自架 AI 助理，常用 Python、JavaScript 與 AI 協作開發。
 
 Practical delivery matters to me: runnable tools, clear README files, packaging steps, release notes, and verification records.  
 我重視實際交付：能執行的工具、清楚的 README、打包步驟、release notes 與驗證紀錄。
@@ -10,10 +10,11 @@ Practical delivery matters to me: runnable tools, clear README files, packaging 
 
 - **Local-first tools / 本機優先工具**：Windows EXE、CLI、桌面 GUI、可攜式流程。
 - **Content and media workflows / 內容與媒體流程**：下載、整理、轉檔、貼圖製作、批次處理。
+- **Accessible AI / 容易使用的 AI**：把 AI 放進 LINE 等熟悉介面，減少家人使用新工具的門檻。
 - **AI-assisted development / AI 協作開發**：prompt、文件整理、agent 協作、vibe coding with verification。
 
-Current emphasis: small tools that can be downloaded, run, checked, and maintained without unnecessary services.  
-目前重點：可下載、可執行、可驗證、可維護，且不依賴不必要服務的小工具。
+Current emphasis: approachable tools and assistants that can be run, checked, and maintained without unnecessary dependencies.<br>
+目前重點：容易上手、可執行、可驗證、可維護，且不增加不必要依賴的工具與助理。
 
 ## Public Projects / 公開專案
 
@@ -40,11 +41,11 @@ Local-first chat sticker pack toolkit for LINE and multi-platform exports.
 
 ### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
 
-Self-hosted LINE × OpenAI personal assistant with chat, image generation, vision, search, durable Supabase workflows, Google Calendar event management and inbound sync, Google Tasks mirroring, reminders, and weather. `v5.8.1` hardens cross-service synchronization; Chinese docs first, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
+Self-hosted LINE × OpenAI personal assistant that brings chat, voice, vision, image generation, sourced search, weather, Google Calendar/Tasks, and durable reminders into a familiar LINE conversation. `v6.0.1` is independently maintained and has completed real LINE/Supabase/Google acceptance, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
 
-自架的 LINE × OpenAI 個人助理，支援聊天、生圖、看圖、搜尋、Supabase durable 流程、Google Calendar 行程管理與外部修改同步、Google Tasks 鏡像、提醒與天氣。`v5.8.1` 強化跨服務同步一致性；中文文件為主，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
+自架的 LINE × OpenAI 個人助理，把聊天、語音、看圖、生圖、附來源搜尋、天氣、Google Calendar／Tasks 與可靠提醒放進熟悉的 LINE 對話。準備 API 額度即可替自己或家人建立 AI 入口，不必先學新的 AI App。`v6.0.1` 已獨立維護並完成真實 LINE／Supabase／Google 驗收，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
 
-`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `v5.8.1` `Public fork`
+`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `v6.0.1` `Independent`
 
 ## Private Work / 非公開工作
 
