@@ -8,10 +8,10 @@ Practical delivery matters to me: runnable tools, clear README files, packaging 
 
 ## Focus / 方向
 
-- **Local-first tools / 本機優先工具**：Windows EXE、CLI、桌面 GUI、可攜式流程。
-- **Content and media workflows / 內容與媒體流程**：下載、整理、轉檔、貼圖製作、批次處理。
-- **Accessible AI / 容易使用的 AI**：把 AI 放進 LINE 等熟悉介面，減少家人使用新工具的門檻。
-- **AI-assisted development / AI 協作開發**：prompt、文件整理、agent 協作、vibe coding with verification。
+- **Local-first tools / 本機優先工具**：Windows EXE, CLI, desktop GUI, portable workflows.<br>Windows EXE、CLI、桌面 GUI、可攜式流程。
+- **Content and media workflows / 內容與媒體流程**：Downloading, organizing, transcoding, sticker making, batch processing.<br>下載、整理、轉檔、貼圖製作、批次處理。
+- **Accessible AI / 容易使用的 AI**：Putting AI into familiar interfaces like LINE, lowering the barrier for family to use new tools.<br>把 AI 放進 LINE 等熟悉介面，減少家人使用新工具的門檻。
+- **AI-assisted development / AI 協作開發**：Prompting, docs organizing, agent collaboration, vibe coding with verification.<br>prompt、文件整理、agent 協作、有驗證的 vibe coding。
 
 Current emphasis: approachable tools and assistants that can be run, checked, and maintained without unnecessary dependencies.<br>
 目前重點：容易上手、可執行、可驗證、可維護，且不增加不必要依賴的工具與助理。
@@ -69,11 +69,11 @@ Some work is private or context-specific, so I summarize it by project type rath
 
 ## How I Work / 工作方式
 
-- **Vibe coding with verification / 有驗證的 vibe coding**：AI coding agents help with prototyping, refactoring, docs, tests, and release prep; generated code still needs to run or have its limits documented.
-- **Local-first by default / 預設本機優先**：if it can run on the user's machine, I avoid starting with a hosted backend.
-- **Privacy-aware / 重視隱私邊界**：user files, images, and tokens should not be sent to unnecessary services.
-- **Release-oriented / 以交付為導向**：downloadable, runnable, and verifiable beats a one-off demo.
-- **Clear boundaries / 清楚寫明邊界**：licensing, platform rules, data responsibility, and unsupported use cases should be explicit.
+- **Vibe coding with verification / 有驗證的 vibe coding**：AI coding agents help with prototyping, refactoring, docs, tests, and release prep; generated code still needs to run or have its limits documented.<br>AI coding agent 協助原型、重構、文件、測試與發版準備；產生的程式碼仍須實際執行，或把限制寫清楚。
+- **Local-first by default / 預設本機優先**：If it can run on the user's machine, I avoid starting with a hosted backend.<br>能在使用者本機執行的，就不從雲端後端開始。
+- **Privacy-aware / 重視隱私邊界**：User files, images, and tokens should not be sent to unnecessary services.<br>使用者的檔案、圖片與 token 不送往不必要的服務。
+- **Release-oriented / 以交付為導向**：Downloadable, runnable, and verifiable beats a one-off demo.<br>可下載、可執行、可驗證，勝過一次性 demo。
+- **Clear boundaries / 清楚寫明邊界**：Licensing, platform rules, data responsibility, and unsupported use cases should be explicit.<br>授權、平台規則、資料責任與不支援的使用情境都應明確寫出。
 
 ## Tools / 工具
 
