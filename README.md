@@ -18,6 +18,14 @@ Current emphasis: approachable tools and assistants that can be run, checked, an
 
 ## Public Projects / 公開專案
 
+### [voxprose](https://github.com/SanHsien/voxprose)
+
+聲成文 VoxProse — local-first AI voice typing for Windows: global-hotkey recording, on-device Faster-Whisper recognition (CUDA-accelerated), optional LLM polishing and translation, typed straight into the focused window. Derived from VoiceType4TW, independently maintained with 450+ tests, CI, and verified portable releases.
+
+聲成文 VoxProse——Windows 本機優先 AI 語音輸入工具：全域快捷鍵錄音、本地 Faster-Whisper 辨識（支援 CUDA 加速）、可選 LLM 潤飾與翻譯，文字直接打進目前視窗。衍生自 VoiceType4TW、獨立維護，附 450+ 測試、CI 與可驗證的可攜版 release。
+
+`Python` `PyQt6` `Faster-Whisper` `Active` `Windows release`
+
 ### [openshelf](https://github.com/SanHsien/openshelf)
 
 Batch export for Google Play Books; keeps DRM-protected books as official `.acsm` files.  
