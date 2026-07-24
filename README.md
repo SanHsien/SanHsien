@@ -8,19 +8,19 @@ Practical delivery matters to me: runnable tools, clear README files, packaging 
 
 ## Focus / 方向
 
-**Local-first tools / 本機優先工具**<br>
+- **Local-first tools / 本機優先工具**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Windows EXE, CLI, desktop GUI, portable workflows.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Windows EXE、CLI、桌面 GUI、可攜式流程。
 
-**Content and media workflows / 內容與媒體流程**<br>
+- **Content and media workflows / 內容與媒體流程**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Downloading, organizing, transcoding, sticker making, batch processing.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;下載、整理、轉檔、貼圖製作、批次處理。
 
-**Accessible AI / 容易使用的 AI**<br>
+- **Accessible AI / 容易使用的 AI**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Putting AI into familiar interfaces like LINE, lowering the barrier for family to use new tools.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;把 AI 放進 LINE 等熟悉介面，減少家人使用新工具的門檻。
 
-**AI-assisted development / AI 協作開發**<br>
+- **AI-assisted development / AI 協作開發**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Prompting, docs organizing, agent collaboration, vibe coding with verification.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;prompt、文件整理、agent 協作、有驗證的 vibe coding。
 
@@ -28,6 +28,14 @@ Current emphasis: approachable tools and assistants that can be run, checked, an
 目前重點：容易上手、可執行、可驗證、可維護，且不增加不必要依賴的工具與助理。
 
 ## Public Projects / 公開專案
+
+### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
+
+Self-hosted LINE × OpenAI personal assistant that brings chat, voice, vision, image generation, sourced search, weather, Google Calendar/Tasks, and durable reminders into a familiar LINE conversation. Independently maintained and verified with real LINE/Supabase/Google acceptance, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
+
+自架的 LINE × OpenAI 個人助理，把聊天、語音、看圖、生圖、附來源搜尋、天氣、Google Calendar／Tasks 與可靠提醒放進熟悉的 LINE 對話。準備 API 額度即可替自己或家人建立 AI 入口，不必先學新的 AI App。專案已獨立維護並完成真實 LINE／Supabase／Google 驗收，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
+
+`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `Independent`
 
 ### [voxprose](https://github.com/SanHsien/voxprose)
 
@@ -58,14 +66,6 @@ Local-first chat sticker pack toolkit for LINE and multi-platform exports.
 
 `Python` `pywebview` `PyInstaller` `Active` `Local-first`
 
-### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
-
-Self-hosted LINE × OpenAI personal assistant that brings chat, voice, vision, image generation, sourced search, weather, Google Calendar/Tasks, and durable reminders into a familiar LINE conversation. Independently maintained and verified with real LINE/Supabase/Google acceptance, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
-
-自架的 LINE × OpenAI 個人助理，把聊天、語音、看圖、生圖、附來源搜尋、天氣、Google Calendar／Tasks 與可靠提醒放進熟悉的 LINE 對話。準備 API 額度即可替自己或家人建立 AI 入口，不必先學新的 AI App。專案已獨立維護並完成真實 LINE／Supabase／Google 驗收，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
-
-`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `Independent`
-
 ## Private Work / 非公開工作
 
 Some work is private or context-specific, so I summarize it by project type rather than repository name or organization.  
@@ -80,23 +80,23 @@ Some work is private or context-specific, so I summarize it by project type rath
 
 ## How I Work / 工作方式
 
-**Vibe coding with verification / 有驗證的 vibe coding**<br>
+- **Vibe coding with verification / 有驗證的 vibe coding**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;AI coding agents help with prototyping, refactoring, docs, tests, and release prep; generated code still needs to run or have its limits documented.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;AI coding agent 協助原型、重構、文件、測試與發版準備；產生的程式碼仍須實際執行，或把限制寫清楚。
 
-**Local-first by default / 預設本機優先**<br>
+- **Local-first by default / 預設本機優先**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;If it can run on the user's machine, I avoid starting with a hosted backend.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;能在使用者本機執行的，就不從雲端後端開始。
 
-**Privacy-aware / 重視隱私邊界**<br>
+- **Privacy-aware / 重視隱私邊界**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;User files, images, and tokens should not be sent to unnecessary services.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;使用者的檔案、圖片與 token 不送往不必要的服務。
 
-**Release-oriented / 以交付為導向**<br>
+- **Release-oriented / 以交付為導向**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Downloadable, runnable, and verifiable beats a one-off demo.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;可下載、可執行、可驗證，勝過一次性 demo。
 
-**Clear boundaries / 清楚寫明邊界**<br>
+- **Clear boundaries / 清楚寫明邊界**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Licensing, platform rules, data responsibility, and unsupported use cases should be explicit.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;授權、平台規則、資料責任與不支援的使用情境都應明確寫出。
 
