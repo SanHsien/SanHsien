@@ -66,6 +66,13 @@ Local-first chat sticker pack toolkit for LINE and multi-platform exports.
 
 `Python` `pywebview` `PyInstaller` `Active` `Local-first`
 
+### [github-stars-organizer-playbook](https://github.com/SanHsien/github-stars-organizer-playbook)
+
+Reusable, safety-first playbook for AI agents to organize large GitHub Stars collections with public Lists, GraphQL batch updates, complete pagination, dry runs, preservation of existing memberships, and post-run verification.<br>
+供 AI agent 重複套用的 GitHub Stars 安全整理流程：以公開 Lists 分類大量收藏，涵蓋 GraphQL 批次更新、完整分頁、dry-run、既有多重分類保留與執行後驗證。
+
+`Documentation` `GitHub CLI` `GraphQL` `AI agents` `Automation`
+
 ## Private Work / 非公開工作
 
 Some work is private or context-specific, so I summarize it by project type rather than repository name or organization.  
