@@ -60,17 +60,20 @@ Batch export for Google Play Books; keeps DRM-protected books as official `.acsm
 
 `Python` `Windows EXE` `Active` `Windows release`
 
-## Private Work / 非公開工作
+## Private & Earlier Work / 非公開與早期作品
 
-Some work is private or context-specific, so I summarize it by project type rather than repository name or organization.  
-部分工作屬於私人或特定場域用途，因此以專案類型概述，不列 repo 名稱、組織資訊或內部細節。
+Some projects were built for private, organizational, or earlier professional contexts. I describe the problems and delivered capabilities without naming employers, clients, organizations, repositories, production systems, accounts, or real data.<br>
+部分作品來自私人、組織內部或早期工作情境。以下說明解決的問題與交付能力，但不公開任職公司、客戶／學校／組織、repo、正式環境、帳號或真實資料。
 
-- Excel VBA tools for inventory, purchasing/sales records, reporting, and office workflows.  
-  使用 Excel VBA 製作進銷存、採購／銷售紀錄、報表與辦公流程工具。
-- Earlier Palm and Android mobile/tablet apps for field visits, sales records, and online result submission.  
-  早期曾製作 Palm 與 Android 手機／平板版本的拜訪、銷售紀錄與連網即時回傳成果程式。
-- Internal workflow systems with forms, review screens, search, export, and handover documentation.  
-  內部流程系統，包含表單、審查畫面、查詢、匯出與交接文件。
+- **Business operations automation / 營運流程自動化**<br>
+  Excel VBA tools for inventory, purchasing and sales records, recurring reports, data checks, and maintainable office workflows.<br>
+  使用 Excel VBA 製作進銷存、採購與銷售紀錄、定期報表、資料檢核及可交接維護的辦公流程。
+- **Field and mobile workflows / 外勤與行動流程**<br>
+  Earlier Palm and Android phone/tablet apps for visit records, sales activity, form entry, and online result submission.<br>
+  早期曾製作 Palm 與 Android 手機／平板程式，處理拜訪紀錄、銷售活動、表單輸入與連網成果回傳。
+- **Internal information systems / 內部資訊系統**<br>
+  Workflow systems with structured forms, review screens, search, data export, operating guides, and handover documentation.<br>
+  內部流程系統，包含結構化表單、審查畫面、查詢、資料匯出、操作說明與交接文件。
 
 ## How I Work / 工作方式
 
@@ -106,5 +109,5 @@ Some work is private or context-specific, so I summarize it by project type rath
 
 - Traditional Chinese first; English when useful for public-facing tools.  
   繁體中文優先；適合公開使用的工具會補英文說明。
-- Private or internal-use projects are not listed here, even if they exist on GitHub.  
-  私人或內部用途的專案即使在 GitHub 上存在，也不會放在這個個人頁當代表專案。
+- Private or internal-use work is summarized by capability and outcome; identifying or sensitive details are omitted.<br>
+  私人或內部用途的作品只摘要能力與成果，不公開可識別或敏感資訊。
