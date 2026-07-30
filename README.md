@@ -29,6 +29,14 @@ Current emphasis: approachable tools and assistants that can be run, checked, an
 
 ## Public Projects / 公開專案
 
+### [agentdeck](https://github.com/SanHsien/agentdeck)
+
+Windows-first system tray cockpit for Claude Code, Codex, and Antigravity: local quota monitoring, multi-model roundtable discussions, subagent role deployment, and HTML reports. Derived from `usage` and independently maintained for Windows; reads local files only and never calls usage APIs.
+
+Windows 優先的 Claude Code、Codex 與 Antigravity 系統匣控制台：本機額度監看、多模型圓桌討論、subagent 角色部署與 HTML 報告。衍生自 `usage`，針對 Windows 獨立維護；只讀取本機檔案，不呼叫用量 API。
+
+`Python` `Windows` `System tray` `Local-first` `Independent fork`
+
 ### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
 
 Self-hosted LINE × OpenAI personal assistant that brings chat, voice, vision, image generation, sourced search, weather, Google Calendar/Tasks, and durable reminders into a familiar LINE conversation. Independently maintained and verified with real LINE/Supabase/Google acceptance, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
@@ -51,27 +59,6 @@ Batch export for Google Play Books; keeps DRM-protected books as official `.acsm
 批次匯出 Google Play 圖書；DRM 書保留官方 `.acsm`。
 
 `Python` `Windows EXE` `Active` `Windows release`
-
-### [yt_fetch](https://github.com/SanHsien/yt_fetch)
-
-Portable YouTube channel downloader with GUI, batch imports, cookies, and Windows release.  
-可攜式 YouTube 頻道下載工具，支援 GUI、批次匯入、cookies 與 Windows 免安裝版本。
-
-`Python` `yt-dlp` `Active` `Windows release`
-
-### [sticker-forge](https://github.com/SanHsien/sticker-forge)
-
-Local-first chat sticker pack toolkit for LINE and multi-platform exports.  
-本機優先的聊天貼圖包製作工具，支援 LINE 與多平台匯出。
-
-`Python` `pywebview` `PyInstaller` `Active` `Local-first`
-
-### [github-stars-organizer-playbook](https://github.com/SanHsien/github-stars-organizer-playbook)
-
-Reusable, safety-first playbook for AI agents to organize large GitHub Stars collections with public Lists, GraphQL batch updates, complete pagination, dry runs, preservation of existing memberships, and post-run verification.<br>
-供 AI agent 重複套用的 GitHub Stars 安全整理流程：以公開 Lists 分類大量收藏，涵蓋 GraphQL 批次更新、完整分頁、dry-run、既有多重分類保留與執行後驗證。
-
-`Documentation` `GitHub CLI` `GraphQL` `AI agents` `Automation`
 
 ## Private Work / 非公開工作
 
