@@ -72,8 +72,17 @@ Some projects were built for private, organizational, or earlier professional co
   Earlier Palm and Android phone/tablet apps for visit records, sales activity, form entry, and online result submission.<br>
   早期曾製作 Palm 與 Android 手機／平板程式，處理拜訪紀錄、銷售活動、表單輸入與連網成果回傳。
 - **Internal information systems / 內部資訊系統**<br>
-  Workflow systems with structured forms, review screens, search, data export, operating guides, and handover documentation.<br>
-  內部流程系統，包含結構化表單、審查畫面、查詢、資料匯出、操作說明與交接文件。
+  - **Web-based submission and review / 線上填報與審查**<br>
+    Built directory-account sign-in, user profiles, and complete submission/editing workflows for professional certificates, language qualifications, and competition achievements. Features include linked fields, inline validation, image evidence preview/upload, automatic academic-year and user-category calculation, role management, multi-condition search, evidence review, and detailed or grouped Excel exports.<br>
+    建置組織帳號登入、個人資料及技術證照、外語證照、競賽成果的完整填報與編輯流程；功能包含聯動欄位、即時驗證、佐證圖片預覽／上傳、學年學期與身分類別自動換算、管理權限、多條件查詢、附件審閱，以及明細或分組統計 Excel 匯出。<br>
+    `PHP` `MySQL / MariaDB` `LDAP / Active Directory` `Bootstrap` `DataTables`
+  - **Excel/VBA key checkout and reservation / Excel/VBA 鑰匙借還與預借**<br>
+    Built borrower identification, separate student/teacher/other-user workflows, checkout and return, real-time key status updates, reservations, class-schedule lookup, overdue reminders, management dashboards, historical and date-range searches, monthly/semester reports, Excel exports, roster synchronization, versioned backups, and yearly archives.<br>
+    建置借用者識別、學生／教師／其他身分流程、借用與歸還、鑰匙狀態同步、預借、課表查詢、逾時提醒、管理儀表板、歷史與日期區間查詢、月報／學期報表、Excel 匯出、名單同步、版本化備份與年度封存。<br>
+    `Excel VBA` `UserForms` `PowerShell` `Windows`
+  - **Engineering delivery and outcome / 工程交付與成果**<br>
+    Added validation rules, audit and error records, database migration/rollback checks, automated tests, VBA round-trip/compile/smoke tools, deployment instructions, data dictionaries, operating guides, and handover documents. These systems replaced paper submissions, repeated spreadsheet entry, and manual checkout logs with searchable, reviewable, reportable, and maintainable workflows.<br>
+    補齊資料驗證、操作與錯誤紀錄、資料庫遷移／回復檢查、自動化測試、VBA 回灌／編譯／smoke 工具、部署說明、資料字典、操作手冊與交接文件；將紙本繳交、重複試算表登錄及人工借還紀錄，整理成可查詢、可審閱、可產製報表且可持續維護的流程。
 
 ## How I Work / 工作方式
 
