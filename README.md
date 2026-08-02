@@ -29,6 +29,9 @@ Current emphasis: approachable tools and assistants that can be run, checked, an
 
 ## Public Projects / 公開專案
 
+Selected projects are highlighted below. [Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)<br>
+以下列出精選專案；也可[查看全部公開專案 →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
+
 ### [agentdeck](https://github.com/SanHsien/agentdeck)
 
 Windows-first system tray cockpit for Claude Code, Codex, and Antigravity: local quota monitoring, multi-model roundtable discussions, subagent role deployment, and HTML reports. Derived from `usage` and independently maintained for Windows; reads local files only and never calls usage APIs.
