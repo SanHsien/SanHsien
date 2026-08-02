@@ -53,12 +53,13 @@ Self-hosted LINE × OpenAI personal assistant that brings chat, voice, vision, i
 
 `Python` `PyQt6` `Faster-Whisper` `Active` `Windows release`
 
-### [openshelf](https://github.com/SanHsien/openshelf)
+### [voxavatar](https://github.com/SanHsien/voxavatar)
 
-Batch export for Google Play Books; keeps DRM-protected books as official `.acsm` files.  
-批次匯出 Google Play 圖書；DRM 書保留官方 `.acsm`。
+Windows-only, local-first VRM desktop companion that turns an AI assistant's playback into visible lip-sync, motions, character states, and comic-style message bubbles. Codex and compatible agents can control it through a loopback-only MCP server. Derived from `xikhar/persona` and independently maintained as VoxAvatar, with CI, security gates, and Windows releases.
 
-`Python` `Windows EXE` `Active` `Windows release`
+Windows-only、本機優先的 VRM 桌面角色陪伴：把 AI 助理的播放聲音呈現為口型、動作、角色狀態與漫畫式訊息氣泡，並讓 Codex 等相容代理透過僅限本機的 MCP 控制。衍生自 `xikhar/persona`，現以 VoxAvatar 獨立維護，附 CI、安全閘門與 Windows release。
+
+`TypeScript` `Electron` `VRM / VRMA` `MCP` `Local-first` `Windows release`
 
 ## Private & Earlier Work / 非公開與早期作品
 
