@@ -123,3 +123,8 @@ Some projects were built for private, organizational, or earlier professional co
   繁體中文優先；適合公開使用的工具會補英文說明。
 - Private or internal-use work is summarized by capability and outcome; identifying or sensitive details are omitted.<br>
   私人或內部用途的作品只摘要能力與成果，不公開可識別或敏感資訊。
+
+## Elsewhere / 其他平台
+
+- [LinkedIn](https://www.linkedin.com/in/sanhsien/) — professional profile / 專業檔案
+- [Facebook](https://www.facebook.com/sanhsien) · [Instagram](https://www.instagram.com/sanhsien/) · [Threads](https://www.threads.com/@sanhsien) · [X](https://x.com/Hsien_3)
