@@ -130,11 +130,13 @@ Some projects were built for private, organizational, or earlier professional co
 
 - Assistant Staff at National Formosa University (since September 2019)
 - B.S. in Civil Engineering, National Cheng Kung University (September 1990 – June 1994)
+- Earlier background: Contract Engineer, South Region Construction Office for the East-West Expressway, Directorate General of Highways (1999 – February 2002)
 
 **繁體中文**
 
 - 國立虎尾科技大學助理員（2019 年 9 月起，現職）
 - 國立成功大學土木工程學系學士（1990 年 9 月－1994 年 6 月）
+- 早期工程背景：公路總局東西向快速公路南區工程處約僱工程司（1999 年－2002 年 2 月）
 
 ## Elsewhere / 其他平台
 
