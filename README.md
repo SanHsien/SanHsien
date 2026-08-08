@@ -124,6 +124,18 @@ Some projects were built for private, organizational, or earlier professional co
 - Private or internal-use work is summarized by capability and outcome; identifying or sensitive details are omitted.<br>
   私人或內部用途的作品只摘要能力與成果，不公開可識別或敏感資訊。
 
+## Background / 背景
+
+**English**
+
+- Assistant Staff at National Formosa University (since September 2019)
+- B.S. in Civil Engineering, National Cheng Kung University (September 1990 – June 1994)
+
+**繁體中文**
+
+- 國立虎尾科技大學助理員（2019 年 9 月起，現職）
+- 國立成功大學土木工程學系學士（1990 年 9 月－1994 年 6 月）
+
 ## Elsewhere / 其他平台
 
 - [LinkedIn](https://www.linkedin.com/in/sanhsien/) — professional profile / 專業檔案
