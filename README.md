@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/sanhsien-banner-github-readme-1280x320.png" alt="San-Hsien Yang — Practical tools. Thoughtful automation. 實用工具，務實自動化。" width="100%">
+</p>
+
 # SanHsien
 
 I build practical Windows-first tools, workflow automations, and self-hosted AI assistants, mostly with Python, JavaScript, and AI-assisted development.<br>
