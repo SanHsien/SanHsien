@@ -4,8 +4,8 @@
 
 # SanHsien
 
-I build practical Windows-first tools, workflow automations, and self-hosted AI assistants, mostly with Python, JavaScript, and AI-assisted development.<br>
-我主要製作實用的 Windows 優先工具、工作流自動化與自架 AI 助理，常用 Python、JavaScript 與 AI 協作開發。
+I build and document personal and open-source projects focused on practical Windows-first tools, workflow automation, and self-hosted AI assistants, mostly with Python, JavaScript, and AI-assisted development.<br>
+我持續製作並記錄個人與開源專案，方向包括實用的 Windows 優先工具、工作流程自動化與自架 AI 助理，常用 Python、JavaScript 與 AI 協作開發。
 
 Practical delivery matters to me: runnable tools, clear README files, packaging steps, release notes, and verification records.  
 我重視實際交付：能執行的工具、清楚的 README、打包步驟、release notes 與驗證紀錄。
@@ -127,20 +127,6 @@ Some projects were built for private, organizational, or earlier professional co
   繁體中文優先；適合公開使用的工具會補英文說明。
 - Private or internal-use work is summarized by capability and outcome; identifying or sensitive details are omitted.<br>
   私人或內部用途的作品只摘要能力與成果，不公開可識別或敏感資訊。
-
-## Background / 背景
-
-**English**
-
-- Assistant Staff at National Formosa University (since September 2019)
-- B.S. in Civil Engineering, National Cheng Kung University (September 1990 – June 1994)
-- Earlier background: Contract Engineer, South Region Construction Office for the East-West Expressway, Directorate General of Highways (1999 – February 2002)
-
-**繁體中文**
-
-- 國立虎尾科技大學助理員（2019 年 9 月起，現職）
-- 國立成功大學土木工程學系學士（1990 年 9 月－1994 年 6 月）
-- 早期工程背景：公路總局東西向快速公路南區工程處約僱工程司（1999 年－2002 年 2 月）
 
 ## Elsewhere / 其他平台
 
