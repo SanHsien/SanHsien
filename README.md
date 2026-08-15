@@ -30,6 +30,14 @@ Derived from VoiceType4TW and independently maintained for Windows.
 
 `Python` `PyQt6` `Faster-Whisper` `CUDA` `Windows`
 
+### [ChannelDepot](https://github.com/SanHsien/yt_fetch)
+
+Portable YouTube channel archiving with GUI, CLI, release builds, batch workflows, filters, ffmpeg integration, and support for content the signed-in user is already authorized to watch.
+
+可攜式 YouTube 頻道影片保存工具，提供 GUI、CLI、批次工作流、篩選、ffmpeg 整合與 Windows 發行版，也支援處理登入者原本就有權觀看的內容。
+
+`Python` `yt-dlp` `Tkinter` `ffmpeg` `Windows / macOS / Linux`
+
 ### [VoxAvatar](https://github.com/SanHsien/voxavatar)
 
 Windows-only VRM desktop companion that turns an AI assistant's playback into visible lip sync, motions, states, and message bubbles. Compatible agents can control it through a loopback-only MCP server.
@@ -39,14 +47,6 @@ Windows 專用 VRM 桌面角色：把 AI 助理的播放聲音轉成口型、動
 Derived from `xikhar/persona` and independently maintained as VoxAvatar.
 
 `TypeScript` `Electron` `Three.js` `VRM / VRMA` `MCP`
-
-### [yt_fetch](https://github.com/SanHsien/yt_fetch)
-
-Portable YouTube channel downloader with GUI, CLI, release builds, batch workflows, ffmpeg integration, and support for content the signed-in user is already authorized to watch.
-
-可攜式 YouTube 頻道下載工具，提供 GUI、CLI、批次下載、ffmpeg 整合與 Windows 發行版，也支援下載登入者原本就有權觀看的內容。
-
-`Python` `yt-dlp` `Tkinter` `ffmpeg` `Windows / macOS / Linux`
 
 [Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
 
