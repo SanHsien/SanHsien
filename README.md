@@ -30,7 +30,7 @@ Derived from VoiceType4TW and independently maintained for Windows.
 
 `Python` `PyQt6` `Faster-Whisper` `CUDA` `Windows`
 
-### [ChannelCrate](https://github.com/SanHsien/yt_fetch)
+### [ChannelDepot](https://github.com/SanHsien/yt_fetch)
 
 Portable YouTube channel archiving with GUI, CLI, release builds, batch workflows, filters, ffmpeg integration, and support for content the signed-in user is already authorized to watch.
 
