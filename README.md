@@ -4,114 +4,75 @@
 
 # SanHsien
 
-I build and document personal and open-source projects focused on practical Windows-first tools, workflow automation, and self-hosted AI assistants, mostly with Python, JavaScript, and AI-assisted development.<br>
-我持續製作並記錄個人與開源專案，方向包括實用的 Windows 優先工具、工作流程自動化與自架 AI 助理，常用 Python、JavaScript 與 AI 協作開發。
+I build practical, Windows-first tools and AI-assisted workflows with an emphasis on **local-first design, clear boundaries, and verifiable releases**.  
+我專注製作實用、Windows 優先的工具與 AI 協作流程，重視 **本機優先、清楚邊界、可驗證交付**。
 
-Practical delivery matters to me: runnable tools, clear README files, packaging steps, release notes, and verification records.  
-我重視實際交付：能執行的工具、清楚的 README、打包步驟、release notes 與驗證紀錄。
+Most projects start from a real workflow problem: reduce repetitive work, make advanced tooling easier to use, and ship something people can actually run.  
+多數專案都從實際工作流程中的痛點出發：減少重複操作、降低工具使用門檻，並把想法做成真正能執行的產品。
 
-## Focus / 方向
+## Featured Projects / 精選作品
 
-- **Local-first tools / 本機優先工具**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Windows EXE, CLI, desktop GUI, portable workflows.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Windows EXE、CLI、桌面 GUI、可攜式流程。
+### [OpenShelf](https://github.com/SanHsien/openshelf)
 
-- **Content and media workflows / 內容與媒體流程**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Downloading, organizing, transcoding, sticker making, batch processing.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;下載、整理、轉檔、貼圖製作、批次處理。
+Batch-export books you legally own in Google Play Books: DRM-free EPUB/PDF files are downloaded directly, DRM-protected titles keep their official `.acsm` handoff for Adobe Digital Editions. HTTP-first, resumable, and local-first.
 
-- **Accessible AI / 容易使用的 AI**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Putting AI into familiar interfaces like LINE, lowering the barrier for family to use new tools.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;把 AI 放進 LINE 等熟悉介面，減少家人使用新工具的門檻。
+批次匯出自己合法擁有的 Google Play 圖書：無 DRM 書籍下載 EPUB/PDF，受 DRM 保護的書籍則保留官方 `.acsm` 交接流程。採 HTTP-first、可續傳、本機優先設計。
 
-- **AI-assisted development / AI 協作開發**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Prompting, docs organizing, agent collaboration, vibe coding with verification.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;prompt、文件整理、agent 協作、有驗證的 vibe coding。
+`Python` `Playwright` `httpx` `Desktop GUI` `Local-first`
 
-Current emphasis: approachable tools and assistants that can be run, checked, and maintained without unnecessary dependencies.<br>
-目前重點：容易上手、可執行、可驗證、可維護，且不增加不必要依賴的工具與助理。
+### [聲成文 VoxProse](https://github.com/SanHsien/voxprose)
 
-## Public Projects / 公開專案
+Local-first AI voice typing for Windows: global-hotkey recording, on-device Faster-Whisper transcription, optional LLM rewriting and translation, then direct typing into the focused app.
 
-Selected projects are highlighted below. [Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)<br>
-以下列出精選專案；也可[查看全部公開專案 →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
+Windows 本機優先 AI 語音輸入工具：全域快捷鍵錄音、本機 Faster-Whisper 辨識、可選 LLM 潤飾與翻譯，最後直接輸入目前作用中的程式。
 
-### [agentdeck](https://github.com/SanHsien/agentdeck)
+Derived from VoiceType4TW and independently maintained for Windows.
 
-Windows-first system tray cockpit for Claude Code, Codex, and Antigravity: local quota monitoring, multi-model roundtable discussions, subagent role deployment, and HTML reports. Derived from `usage` and independently maintained for Windows; reads local files only and never calls usage APIs.
+`Python` `PyQt6` `Faster-Whisper` `CUDA` `Windows`
 
-Windows 優先的 Claude Code、Codex 與 Antigravity 系統匣控制台：本機額度監看、多模型圓桌討論、subagent 角色部署與 HTML 報告。衍生自 `usage`，針對 Windows 獨立維護；只讀取本機檔案，不呼叫用量 API。
+### [VoxAvatar](https://github.com/SanHsien/voxavatar)
 
-`Python` `Windows` `System tray` `Local-first` `Independent fork`
+Windows-only VRM desktop companion that turns an AI assistant's playback into visible lip sync, motions, states, and message bubbles. Compatible agents can control it through a loopback-only MCP server.
 
-### [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant)
+Windows 專用 VRM 桌面角色：把 AI 助理的播放聲音轉成口型、動作、角色狀態與訊息氣泡，並可由相容 Agent 透過僅限本機的 MCP 控制。
 
-Self-hosted LINE × OpenAI personal assistant that brings chat, voice, vision, image generation, sourced search, weather, Google Calendar/Tasks, and durable reminders into a familiar LINE conversation. Independently maintained and verified with real LINE/Supabase/Google acceptance, with its own [docs site](https://sanhsien.github.io/gpt-ai-assistant-docs/), CI, and tagged releases.
+Derived from `xikhar/persona` and independently maintained as VoxAvatar.
 
-自架的 LINE × OpenAI 個人助理，把聊天、語音、看圖、生圖、附來源搜尋、天氣、Google Calendar／Tasks 與可靠提醒放進熟悉的 LINE 對話。準備 API 額度即可替自己或家人建立 AI 入口，不必先學新的 AI App。專案已獨立維護並完成真實 LINE／Supabase／Google 驗收，附獨立[文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/)、CI 與版本 release。
+`TypeScript` `Electron` `Three.js` `VRM / VRMA` `MCP`
 
-`JavaScript` `LINE` `OpenAI` `Supabase` `Google Calendar` `Independent`
+### [yt_fetch](https://github.com/SanHsien/yt_fetch)
 
-### [voxprose](https://github.com/SanHsien/voxprose)
+Portable YouTube channel downloader with GUI, CLI, release builds, batch workflows, ffmpeg integration, and support for content the signed-in user is already authorized to watch.
 
-聲成文 VoxProse — local-first AI voice typing for Windows: global-hotkey recording, on-device Faster-Whisper recognition (CUDA-accelerated), optional LLM polishing and translation, typed straight into the focused window. Derived from VoiceType4TW, independently maintained with 450+ tests, CI, and verified portable releases.
+可攜式 YouTube 頻道下載工具，提供 GUI、CLI、批次下載、ffmpeg 整合與 Windows 發行版，也支援下載登入者原本就有權觀看的內容。
 
-聲成文 VoxProse——Windows 本機優先 AI 語音輸入工具：全域快捷鍵錄音、本地 Faster-Whisper 辨識（支援 CUDA 加速）、可選 LLM 潤飾與翻譯，文字直接打進目前視窗。衍生自 VoiceType4TW、獨立維護，附 450+ 測試、CI 與可驗證的可攜版 release。
+`Python` `yt-dlp` `Tkinter` `ffmpeg` `Windows / macOS / Linux`
 
-`Python` `PyQt6` `Faster-Whisper` `Active` `Windows release`
+[Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
 
-### [voxavatar](https://github.com/SanHsien/voxavatar)
+## What I Build / 我在做什麼
 
-Windows-only, local-first VRM desktop companion that turns an AI assistant's playback into visible lip-sync, motions, character states, and comic-style message bubbles. Codex and compatible agents can control it through a loopback-only MCP server. Derived from `xikhar/persona` and independently maintained as VoxAvatar, with CI, security gates, and Windows releases.
+- **Local-first desktop tools** — Windows EXE, CLI, desktop GUI, portable workflows.  
+  **本機優先桌面工具** — Windows EXE、CLI、桌面 GUI、可攜式流程。
+- **Accessible AI workflows** — bring AI into familiar interfaces instead of forcing users into new ones.  
+  **降低 AI 使用門檻** — 把 AI 放進熟悉的介面，而不是要求使用者重學一套工具。
+- **Automation for repetitive work** — media, documents, downloads, data handling, and operational workflows.  
+  **重複工作自動化** — 媒體、文件、下載、資料處理與日常作業流程。
+- **AI-assisted development with verification** — agents help build faster, but releases still need tests, packaging, and explicit limits.  
+  **有驗證的 AI 協作開發** — AI Agent 協助加速原型、重構與文件，但交付仍需測試、打包與清楚限制。
 
-Windows-only、本機優先的 VRM 桌面角色陪伴：把 AI 助理的播放聲音呈現為口型、動作、角色狀態與漫畫式訊息氣泡，並讓 Codex 等相容代理透過僅限本機的 MCP 控制。衍生自 `xikhar/persona`，現以 VoxAvatar 獨立維護，附 CI、安全閘門與 Windows release。
+## Earlier & Private Work / 過往與非公開作品
 
-`TypeScript` `Electron` `VRM / VRMA` `MCP` `Local-first` `Windows release`
+Earlier work includes Excel/VBA business automation, Palm and Android field applications, web-based submission/review systems, and internal operational tools. Private or organizational projects are described by capability only; identifying details and production data are intentionally omitted.
 
-## Private & Earlier Work / 非公開與早期作品
+過往作品包含 Excel/VBA 營運自動化、Palm 與 Android 行動程式、線上填報／審查系統，以及組織內部作業工具。私人或組織型專案僅描述能力與成果，不公開可識別資訊與正式資料。
 
-Some projects were built for private, organizational, or earlier professional contexts. I describe the problems and delivered capabilities without naming employers, clients, organizations, repositories, production systems, accounts, or real data.<br>
-部分作品來自私人、組織內部或早期工作情境。以下說明解決的問題與交付能力，但不公開任職公司、客戶／學校／組織、repo、正式環境、帳號或真實資料。
+## Working Principles / 工作原則
 
-- **Business operations automation / 營運流程自動化**<br>
-  Excel VBA tools for inventory, purchasing and sales records, recurring reports, data checks, and maintainable office workflows.<br>
-  使用 Excel VBA 製作進銷存、採購與銷售紀錄、定期報表、資料檢核及可交接維護的辦公流程。
-- **Field and mobile workflows / 外勤與行動流程**<br>
-  Earlier Palm and Android phone/tablet apps for visit records, sales activity, form entry, and online result submission.<br>
-  早期曾製作 Palm 與 Android 手機／平板程式，處理拜訪紀錄、銷售活動、表單輸入與連網成果回傳。
-- **Internal information systems / 內部資訊系統**<br>
-  - **Web-based submission and review / 線上填報與審查**<br>
-    Directory-account sign-in; certificate, language qualification, and competition submissions; linked validation, evidence uploads, automatic classification, admin review/search, and detailed or summary Excel exports—replacing paper forms and repeated spreadsheet entry.<br>
-    組織帳號登入；證照、外語與競賽成果填報；聯動驗證、附件上傳、自動分類、後台審閱／查詢及 Excel 明細／統計匯出，取代紙本與重複試算表登錄。<br>
-    `PHP` `MySQL / MariaDB` `LDAP / Active Directory` `Bootstrap` `DataTables`
-  - **Excel/VBA key checkout and reservation / Excel/VBA 鑰匙借還與預借**<br>
-    Borrower identification; checkout/return and key status; reservations and schedule lookup; overdue reminders, dashboards, history, reports, exports, roster sync, backups, and archives—turning manual logs into a maintainable operational workflow.<br>
-    借用者識別、借還與鑰匙狀態、預借與課表查詢、逾時提醒、儀表板、歷史查詢、報表匯出、名單同步、備份與封存，將人工紀錄整理成可維護的作業流程。<br>
-    `Excel VBA` `UserForms` `PowerShell` `Windows`
-  - Tests, migration/rollback or backup checks, data dictionaries, operating guides, and handover documents support ongoing maintenance.<br>
-    兩套系統均補有測試、遷移／回復或備份檢查、資料字典、操作手冊與交接文件，確保可持續維護。
-
-## How I Work / 工作方式
-
-- **Vibe coding with verification / 有驗證的 vibe coding**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;AI coding agents help with prototyping, refactoring, docs, tests, and release prep; generated code still needs to run or have its limits documented.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;AI coding agent 協助原型、重構、文件、測試與發版準備；產生的程式碼仍須實際執行，或把限制寫清楚。
-
-- **Local-first by default / 預設本機優先**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;If it can run on the user's machine, I avoid starting with a hosted backend.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;能在使用者本機執行的，就不從雲端後端開始。
-
-- **Privacy-aware / 重視隱私邊界**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;User files, images, and tokens should not be sent to unnecessary services.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;使用者的檔案、圖片與 token 不送往不必要的服務。
-
-- **Release-oriented / 以交付為導向**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Downloadable, runnable, and verifiable beats a one-off demo.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;可下載、可執行、可驗證，勝過一次性 demo。
-
-- **Clear boundaries / 清楚寫明邊界**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Licensing, platform rules, data responsibility, and unsupported use cases should be explicit.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;授權、平台規則、資料責任與不支援的使用情境都應明確寫出。
+- **Local-first by default** — if it can run on the user's machine, avoid adding a hosted backend first.
+- **Release-oriented** — downloadable, runnable, and verifiable beats a one-off demo.
+- **Privacy-aware** — user files, images, and tokens should not be sent to unnecessary services.
+- **Clear boundaries** — licensing, platform rules, unsupported scenarios, and operational risks should be explicit.
 
 ## Tools / 工具
 
@@ -120,13 +81,6 @@ Some projects were built for private, organizational, or earlier professional co
 ![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
 ![PyInstaller](https://img.shields.io/badge/PyInstaller-306998?logo=python&logoColor=white)
-
-## Notes / 備註
-
-- Traditional Chinese first; English when useful for public-facing tools.  
-  繁體中文優先；適合公開使用的工具會補英文說明。
-- Private or internal-use work is summarized by capability and outcome; identifying or sensitive details are omitted.<br>
-  私人或內部用途的作品只摘要能力與成果，不公開可識別或敏感資訊。
 
 ## Elsewhere / 其他平台
 
