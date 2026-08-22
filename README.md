@@ -30,7 +30,7 @@ Derived from VoiceType4TW and independently maintained for Windows.
 
 `Python` `PyQt6` `Faster-Whisper` `CUDA` `Windows`
 
-### [ChannelDepot](https://github.com/SanHsien/yt_fetch)
+### [ChannelDepot](https://github.com/SanHsien/channeldepot)
 
 Portable YouTube channel archiving with GUI, CLI, release builds, batch workflows, filters, ffmpeg integration, and support for content the signed-in user is already authorized to watch.
 
@@ -47,6 +47,40 @@ Windows 專用 VRM 桌面角色：把 AI 助理的播放聲音轉成口型、動
 Derived from `xikhar/persona` and independently maintained as VoxAvatar.
 
 `TypeScript` `Electron` `Three.js` `VRM / VRMA` `MCP`
+
+## Agent Skills & Tooling / Agent 技能與開發套件
+
+Developer-facing work for AI coding agents, listed separately from the desktop apps above. This section mixes original engineering references with independently maintained Windows-first forks; these are tooling for agent workflows, not general-user downloadable apps.
+
+給 AI coding agent 用的開發向作品，與上方桌面產品分開列出。這一區包含原創工程參考專案與 Windows-first 維護型 fork，服務的是 agent 工作流，不是一般使用者下載即用的 App。
+
+### [AI Quality Gates](https://github.com/SanHsien/ai-quality-gates)
+
+Executable reference project for AI-assisted development quality: Gherkin specs, layered tests, coverage and mutation gates, architecture contracts, strict typing, security checks, and bounded agent-loop policies.
+
+把 AI 輔助開發的品質要求做成可執行證據：Gherkin 規格、分層測試、覆蓋率與 mutation gate、架構契約、strict typing、安全檢查，以及有界的 Agent loop policy。
+
+`Python` `pytest` `Gherkin` `Mutation testing` `CodeQL` `Agent governance`
+
+### [agentdeck](https://github.com/SanHsien/agentdeck)
+
+Windows system-tray cockpit for Claude Code, Codex, and Antigravity: local quota monitoring, multi-model roundtable, subagent roles, and HTML reports. Claude and Codex quota data are read from local files only.
+
+Windows 系統匣控制台：本機額度監看、多模型圓桌討論、subagent 角色部署與 HTML 報告。Claude／Codex 額度只讀本機檔案，不呼叫用量 API。
+
+Derived from `aqua5230/usage` and independently maintained for Windows.
+
+`Python` `Windows` `System tray` `Local-first` `Independent fork`
+
+### [book-to-skill](https://github.com/SanHsien/book-to-skill)
+
+Turn a technical book, a docs folder, or a set of sources into on-demand Agent Skills for GitHub Copilot CLI, Amp, and Claude Code—load the relevant chapter instead of stuffing the whole book into context.
+
+把技術書、文件資料夾或一組來源轉成可按需載入的 Agent 技能，給 Copilot CLI、Amp 與 Claude Code 在工作中直接查、直接用；問到某一章時只載入該章，不必把整本書塞進上下文。
+
+Windows-first maintenance fork of [`virgiliojr94/book-to-skill`](https://github.com/virgiliojr94/book-to-skill).
+
+`Python` `Agent Skills` `Windows-first` `Independent fork`
 
 [Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
 
