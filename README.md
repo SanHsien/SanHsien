@@ -103,10 +103,14 @@ Earlier work includes Excel/VBA business automation, Palm and Android field appl
 
 ## Working Principles / 工作原則
 
-- **Local-first by default** — if it can run on the user's machine, avoid adding a hosted backend first.
-- **Release-oriented** — downloadable, runnable, and verifiable beats a one-off demo.
-- **Privacy-aware** — user files, images, and tokens should not be sent to unnecessary services.
-- **Clear boundaries** — licensing, platform rules, unsupported scenarios, and operational risks should be explicit.
+- **Local-first by default** — if it can run on the user's machine, avoid adding a hosted backend first.  
+  **預設本機優先** — 能在使用者本機完成的功能，就不優先增加託管式後端。
+- **Release-oriented** — downloadable, runnable, and verifiable beats a one-off demo.  
+  **以交付為導向** — 可下載、可執行、可驗證，比一次性的 demo 更重要。
+- **Privacy-aware** — user files, images, and tokens should not be sent to unnecessary services.  
+  **重視隱私邊界** — 使用者的檔案、圖片與 token 不應送往不必要的服務。
+- **Clear boundaries** — licensing, platform rules, unsupported scenarios, and operational risks should be explicit.  
+  **清楚寫明邊界** — 授權、平台規則、不支援情境與操作風險都應明確說明。
 
 ## Tools / 工具
 
