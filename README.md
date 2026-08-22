@@ -48,6 +48,32 @@ Derived from `xikhar/persona` and independently maintained as VoxAvatar.
 
 `TypeScript` `Electron` `Three.js` `VRM / VRMA` `MCP`
 
+## Agent Skills & Tooling / Agent 技能與開發套件
+
+Developer-facing work for AI coding agents, listed separately from the desktop apps above. These are independently maintained Windows-first forks for agent workflows, not general-user downloadable apps.
+
+給 AI coding agent 用的開發向作品，與上方桌面產品分開列出。皆為 Windows-first 的獨立維護 fork，服務的是 agent 工作流，不是一般使用者下載即用的 App。
+
+### [agentdeck](https://github.com/SanHsien/agentdeck)
+
+Windows system-tray cockpit for Claude Code, Codex, and Antigravity: local quota monitoring, multi-model roundtable, subagent roles, and HTML reports. Claude and Codex quota data are read from local files only.
+
+Windows 系統匣控制台：本機額度監看、多模型圓桌討論、subagent 角色部署與 HTML 報告。Claude／Codex 額度只讀本機檔案，不呼叫用量 API。
+
+Derived from `aqua5230/usage` and independently maintained for Windows.
+
+`Python` `Windows` `System tray` `Local-first` `Independent fork`
+
+### [book-to-skill](https://github.com/SanHsien/book-to-skill)
+
+Turn a technical book, a docs folder, or a set of sources into on-demand Agent Skills for GitHub Copilot CLI, Amp, and Claude Code—load the relevant chapter instead of stuffing the whole book into context.
+
+把技術書、文件資料夾或一組來源轉成可按需載入的 Agent 技能，給 Copilot CLI、Amp 與 Claude Code 在工作中直接查、直接用；問到某一章時只載入該章，不必把整本書塞進上下文。
+
+Windows-first maintenance fork of [`virgiliojr94/book-to-skill`](https://github.com/virgiliojr94/book-to-skill).
+
+`Python` `Agent Skills` `Windows-first` `Independent fork`
+
 [Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
 
 ## What I Build / 我在做什麼
