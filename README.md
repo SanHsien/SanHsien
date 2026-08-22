@@ -30,7 +30,7 @@ Derived from VoiceType4TW and independently maintained for Windows.
 
 `Python` `PyQt6` `Faster-Whisper` `CUDA` `Windows`
 
-### [ChannelDepot](https://github.com/SanHsien/yt_fetch)
+### [ChannelDepot](https://github.com/SanHsien/channeldepot)
 
 Portable YouTube channel archiving with GUI, CLI, release builds, batch workflows, filters, ffmpeg integration, and support for content the signed-in user is already authorized to watch.
 
@@ -50,9 +50,17 @@ Derived from `xikhar/persona` and independently maintained as VoxAvatar.
 
 ## Agent Skills & Tooling / Agent 技能與開發套件
 
-Developer-facing work for AI coding agents, listed separately from the desktop apps above. These are independently maintained Windows-first forks for agent workflows, not general-user downloadable apps.
+Developer-facing work for AI coding agents, listed separately from the desktop apps above. This section mixes original engineering references with independently maintained Windows-first forks; these are tooling for agent workflows, not general-user downloadable apps.
 
-給 AI coding agent 用的開發向作品，與上方桌面產品分開列出。皆為 Windows-first 的獨立維護 fork，服務的是 agent 工作流，不是一般使用者下載即用的 App。
+給 AI coding agent 用的開發向作品，與上方桌面產品分開列出。這一區包含原創工程參考專案與 Windows-first 維護型 fork，服務的是 agent 工作流，不是一般使用者下載即用的 App。
+
+### [AI Quality Gates](https://github.com/SanHsien/ai-quality-gates)
+
+Executable reference project for AI-assisted development quality: Gherkin specs, layered tests, coverage and mutation gates, architecture contracts, strict typing, security checks, and bounded agent-loop policies.
+
+把 AI 輔助開發的品質要求做成可執行證據：Gherkin 規格、分層測試、覆蓋率與 mutation gate、架構契約、strict typing、安全檢查，以及有界的 Agent loop policy。
+
+`Python` `pytest` `Gherkin` `Mutation testing` `CodeQL` `Agent governance`
 
 ### [agentdeck](https://github.com/SanHsien/agentdeck)
 
