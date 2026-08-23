@@ -54,6 +54,21 @@ Developer-facing work for AI coding agents, listed separately from the desktop a
 
 給 AI coding agent 用的開發向作品，與上方桌面產品分開列出。這一區包含原創工程參考專案與 Windows-first 維護型 fork，服務的是 agent 工作流，不是一般使用者下載即用的 App。
 
+### AI Coding Governance Stack / AI Coding 治理堆疊
+
+Four repositories that constrain AI coding agents at four different layers. Each is usable on its own; together they cover the decision to delegate, the actions taken, the code produced, and the claim that it is done.
+
+四個 repo 分別在四個層面約束 AI coding agent：要不要派工、動手時做了什麼、產出的程式碼夠不夠格、以及「做完了」這句話算不算數。每一個都能單獨使用。
+
+| Layer / 層 | Repo | |
+| --- | --- | --- |
+| Dispatch / 派工決策 | [agent-advisor](https://github.com/SanHsien/agent-advisor) | Risk-gated routing across four agent runtimes ｜四種 agent runtime 的風險分流路由 |
+| Execution / 動作攔截 | [harness-guard](https://github.com/SanHsien/harness-guard) | Runtime hooks that block dangerous commands, unevidenced completion claims, and commits over failing tests ｜實際攔截危險指令、無證據的完成宣稱、紅燈仍提交 |
+| Output / 產出品質 | [ai-quality-gates](https://github.com/SanHsien/ai-quality-gates) | Executable specs and quantified thresholds (detailed below) ｜可執行規格與量化門檻（詳見下方） |
+| Delivery / 交付流程 | [paulsha-cortex](https://github.com/SanHsien/paulsha-cortex) | Candidate, verification, independent review, and completion evidence ｜候選、驗證、獨立審查與完成證據 |
+
+`Agent hooks` `Multi-agent governance` `Windows-first` `Python`
+
 ### [AI Quality Gates](https://github.com/SanHsien/ai-quality-gates)
 
 Executable reference project for AI-assisted development quality: Gherkin specs, layered tests, coverage and mutation gates, architecture contracts, strict typing, security checks, and bounded agent-loop policies.
