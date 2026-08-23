@@ -60,66 +60,26 @@ Derived from `xikhar/persona` and independently maintained as VoxAvatar.
 
 ## Agent Skills & Tooling / Agent 技能與開發套件
 
-Developer-facing work for AI coding agents, listed separately from the desktop apps above. This section mixes original engineering references with independently maintained Windows-first forks; these are tooling for agent workflows, not general-user downloadable apps.
+Developer-facing work for AI coding agents, kept separate from the products above: original engineering references and independently maintained Windows-first forks, aimed at agent workflows rather than at general users.
 
-給 AI coding agent 用的開發向作品，與上方桌面產品分開列出。這一區包含原創工程參考專案與 Windows-first 維護型 fork，服務的是 agent 工作流，不是一般使用者下載即用的 App。
+給 AI coding agent 用的開發向作品，與上方產品分開列出：原創工程參考專案與 Windows-first 維護型 fork，服務的是 agent 工作流，不是一般使用者下載即用的 App。
 
-### AI Coding Governance Stack / AI Coding 治理堆疊
-
-Four repositories that constrain AI coding agents at four different layers. Each is usable on its own; together they cover the decision to delegate, the actions taken, the code produced, and the claim that it is done.
-
-四個 repo 分別在四個層面約束 AI coding agent：要不要派工、動手時做了什麼、產出的程式碼夠不夠格、以及「做完了」這句話算不算數。每一個都能單獨使用。
+**AI coding governance stack ｜ AI coding 治理堆疊** — four repos constraining agents at four layers; each usable on its own. 四個 repo 分別約束 agent 的四個層面，也可以單獨使用。
 
 | Layer / 層 | Repo | |
 | --- | --- | --- |
 | Dispatch / 派工決策 | [agent-advisor](https://github.com/SanHsien/agent-advisor) | Risk-gated routing across four agent runtimes ｜四種 agent runtime 的風險分流路由 |
-| Execution / 動作攔截 | [harness-guard](https://github.com/SanHsien/harness-guard) | Runtime hooks that block dangerous commands, unevidenced completion claims, and commits over failing tests ｜實際攔截危險指令、無證據的完成宣稱、紅燈仍提交 |
-| Output / 產出品質 | [ai-quality-gates](https://github.com/SanHsien/ai-quality-gates) | Executable specs and quantified thresholds (detailed below) ｜可執行規格與量化門檻（詳見下方） |
-| Delivery / 交付流程 | [paulsha-cortex](https://github.com/SanHsien/paulsha-cortex) | Candidate, verification, independent review, and completion evidence ｜候選、驗證、獨立審查與完成證據 |
+| Execution / 動作攔截 | [harness-guard](https://github.com/SanHsien/harness-guard) | Runtime hooks blocking dangerous commands, unevidenced completion claims, commits over failing tests ｜攔截危險指令、無證據的完成宣稱、紅燈仍提交 |
+| Output / 產出品質 | [ai-quality-gates](https://github.com/SanHsien/ai-quality-gates) | Gherkin specs, coverage and mutation gates, architecture contracts, bounded agent-loop policy ｜可執行規格、覆蓋率與 mutation gate、架構契約、有界 loop policy |
+| Delivery / 交付流程 | [paulsha-cortex](https://github.com/SanHsien/paulsha-cortex) | Candidate, verification, independent review, completion evidence ｜候選、驗證、獨立審查與完成證據 |
 
-`Agent hooks` `Multi-agent governance` `Windows-first` `Python`
+**Other agent tooling ｜ 其他 agent 工具**
 
-### [AI Quality Gates](https://github.com/SanHsien/ai-quality-gates)
-
-Executable reference project for AI-assisted development quality: Gherkin specs, layered tests, coverage and mutation gates, architecture contracts, strict typing, security checks, and bounded agent-loop policies.
-
-把 AI 輔助開發的品質要求做成可執行證據：Gherkin 規格、分層測試、覆蓋率與 mutation gate、架構契約、strict typing、安全檢查，以及有界的 Agent loop policy。
-
-`Python` `pytest` `Gherkin` `Mutation testing` `CodeQL` `Agent governance`
-
-### [agentdeck](https://github.com/SanHsien/agentdeck)
-
-Windows system-tray cockpit for Claude Code, Codex, and Antigravity: local quota monitoring, multi-model roundtable, subagent roles, and HTML reports. Claude and Codex quota data are read from local files only.
-
-Windows 系統匣控制台：本機額度監看、多模型圓桌討論、subagent 角色部署與 HTML 報告。Claude／Codex 額度只讀本機檔案，不呼叫用量 API。
-
-Derived from `aqua5230/usage` and independently maintained for Windows.
-
-`Python` `Windows` `System tray` `Local-first` `Independent fork`
-
-### [opencodex](https://github.com/SanHsien/opencodex)
-
-Universal provider proxy for OpenAI Codex and Claude Code: run either client against any LLM—Claude, Gemini, Grok, DeepSeek, or a local Ollama model—through one local proxy and dashboard, with the native model picker still doing the choosing.
-
-讓 OpenAI Codex 與 Claude Code 能改用任何 LLM 的通用供應商代理：Claude、Gemini、Grok、DeepSeek 或本機 Ollama 都經由同一個本機代理與儀表板轉發，選擇器仍是原生的，換掉的只有後面實際跑的模型。
-
-Sits next to the governance stack above rather than inside it: it decides which model an agent runs on, not what the agent is allowed to do.
-
-它與上方的治理堆疊相鄰但不同層：決定 agent 背後跑哪個模型，不約束 agent 能做什麼。
-
-Windows-first maintenance fork of [`lidge-jun/opencodex`](https://github.com/lidge-jun/opencodex).
-
-`TypeScript` `Node.js` `LLM routing` `Local proxy` `Independent fork`
-
-### [book-to-skill](https://github.com/SanHsien/book-to-skill)
-
-Turn a technical book, a docs folder, or a set of sources into on-demand Agent Skills for GitHub Copilot CLI, Amp, and Claude Code—load the relevant chapter instead of stuffing the whole book into context.
-
-把技術書、文件資料夾或一組來源轉成可按需載入的 Agent 技能，給 Copilot CLI、Amp 與 Claude Code 在工作中直接查、直接用；問到某一章時只載入該章，不必把整本書塞進上下文。
-
-Windows-first maintenance fork of [`virgiliojr94/book-to-skill`](https://github.com/virgiliojr94/book-to-skill).
-
-`Python` `Agent Skills` `Windows-first` `Independent fork`
+| Repo | | |
+| --- | --- | --- |
+| [opencodex](https://github.com/SanHsien/opencodex) | Universal provider proxy — run Codex or Claude Code on Claude, Gemini, Grok, DeepSeek, or local Ollama, native model picker intact ｜通用供應商代理，讓 Codex／Claude Code 改用任何 LLM，選擇器仍是原生的 | `TypeScript` fork of [`lidge-jun/opencodex`](https://github.com/lidge-jun/opencodex) |
+| [agentdeck](https://github.com/SanHsien/agentdeck) | Windows tray cockpit: quota monitoring, multi-model roundtable, subagent roles, HTML reports; quota read from local files only ｜系統匣控制台：額度監看、多模型圓桌、subagent 角色、HTML 報告，額度只讀本機檔案 | `Python` fork of `aqua5230/usage` |
+| [book-to-skill](https://github.com/SanHsien/book-to-skill) | Turn a technical book or docs folder into on-demand Agent Skills — load the relevant chapter, not the whole book ｜把技術書或文件夾轉成按需載入的 Agent 技能，只載入用得到的那一章 | `Python` fork of [`virgiliojr94/book-to-skill`](https://github.com/virgiliojr94/book-to-skill) |
 
 [Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
 
