@@ -20,6 +20,16 @@ Batch-export books you legally own in Google Play Books: DRM-free EPUB/PDF files
 
 `Python` `Playwright` `httpx` `Desktop GUI` `Local-first`
 
+### [GPT AI Assistant](https://github.com/SanHsien/gpt-ai-assistant)
+
+Self-hosted personal AI assistant that lives inside LINE: chat, voice transcription, image understanding and generation, search, schedules, tasks, reminders, and weather—all running on your own OpenAI, LINE, and Supabase credentials. "AI finished" and "LINE delivered" are separate checkpoints on a durable queue, so a delivery retry never re-runs paid AI work.
+
+可自架的 LINE 個人 AI 助理：聊天、語音轉錄、圖片理解與生成、搜尋、行程、任務、提醒與天氣，全部跑在自己的 OpenAI、LINE 與 Supabase 帳號上。「AI 已完成」與「LINE 已送達」是 durable queue 上的兩個 checkpoint，送達重試不會重跑已付費的 AI 工作。
+
+[Documentation site / 文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/) · Derived from `memochou1993/gpt-ai-assistant` and independently maintained.
+
+`JavaScript` `Node.js 24` `Vercel` `Supabase` `LINE Messaging API` `Google Calendar / Tasks`
+
 ### [聲成文 VoxProse](https://github.com/SanHsien/voxprose)
 
 Local-first AI voice typing for Windows: global-hotkey recording, on-device Faster-Whisper transcription, optional LLM rewriting and translation, then direct typing into the focused app.
