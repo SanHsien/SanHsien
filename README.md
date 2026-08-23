@@ -87,6 +87,20 @@ Derived from `aqua5230/usage` and independently maintained for Windows.
 
 `Python` `Windows` `System tray` `Local-first` `Independent fork`
 
+### [opencodex](https://github.com/SanHsien/opencodex)
+
+Universal provider proxy for OpenAI Codex and Claude Code: run either client against any LLM—Claude, Gemini, Grok, DeepSeek, or a local Ollama model—through one local proxy and dashboard, with the native model picker still doing the choosing.
+
+讓 OpenAI Codex 與 Claude Code 能改用任何 LLM 的通用供應商代理：Claude、Gemini、Grok、DeepSeek 或本機 Ollama 都經由同一個本機代理與儀表板轉發，選擇器仍是原生的，換掉的只有後面實際跑的模型。
+
+Sits next to the governance stack above rather than inside it: it decides which model an agent runs on, not what the agent is allowed to do.
+
+它與上方的治理堆疊相鄰但不同層：決定 agent 背後跑哪個模型，不約束 agent 能做什麼。
+
+Windows-first maintenance fork of [`lidge-jun/opencodex`](https://github.com/lidge-jun/opencodex).
+
+`TypeScript` `Node.js` `LLM routing` `Local proxy` `Independent fork`
+
 ### [book-to-skill](https://github.com/SanHsien/book-to-skill)
 
 Turn a technical book, a docs folder, or a set of sources into on-demand Agent Skills for GitHub Copilot CLI, Amp, and Claude Code—load the relevant chapter instead of stuffing the whole book into context.
