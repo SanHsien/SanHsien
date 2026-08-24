@@ -69,6 +69,7 @@ Developer-facing work for AI coding agents — original engineering references a
 
 | Repo | | |
 | --- | --- | --- |
+| [MyR2D2](https://github.com/SanHsien/MyR2D2) | Ten Claude Code skills against session amnesia: save-and-verify before shutdown, handoff and pickup between sessions, daily and weekly debriefs, self-check before reporting, and second review by a different model ｜十支對抗 session 失憶的 skills：收工前落地並驗證、跨 session 交接與接手、日結週結、回報前自檢，以及交給另一個模型的二審 | `Python` fork of [`tingyulu/MyR2D2`](https://github.com/tingyulu/MyR2D2) |
 | [opencodex](https://github.com/SanHsien/opencodex) | Universal provider proxy — run Codex or Claude Code on Claude, Gemini, Grok, DeepSeek, or local Ollama, native model picker intact ｜通用供應商代理，讓 Codex／Claude Code 改用任何 LLM，選擇器仍是原生的 | `TypeScript` fork of [`lidge-jun/opencodex`](https://github.com/lidge-jun/opencodex) |
 | [agentdeck](https://github.com/SanHsien/agentdeck) | Windows tray cockpit: quota monitoring, multi-model roundtable, subagent roles, HTML reports; quota read from local files only ｜系統匣控制台：額度監看、多模型圓桌、subagent 角色、HTML 報告，額度只讀本機檔案 | `Python` fork of `aqua5230/usage` |
 | [book-to-skill](https://github.com/SanHsien/book-to-skill) | Turn a technical book or docs folder into on-demand Agent Skills — load the relevant chapter, not the whole book ｜把技術書或文件夾轉成按需載入的 Agent 技能，只載入用得到的那一章 | `Python` fork of [`virgiliojr94/book-to-skill`](https://github.com/virgiliojr94/book-to-skill) |
