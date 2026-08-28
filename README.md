@@ -26,6 +26,15 @@ Self-hosted personal AI assistant inside LINE — chat, voice, vision, search, s
 
 `JavaScript` `Node.js 24` `Vercel` `Supabase` `LINE Messaging API` `Google Calendar / Tasks`
 
+### [ChatGPT Sidebar](https://github.com/SanHsien/chatgpt-sidebar)
+
+Chrome MV3 side panel that embeds the ChatGPT session already signed in on the browser, builds Traditional Chinese prompts from the current page or selection (summary, translate, explain, outline), and inserts them without auto-submit.
+Chrome MV3 側邊欄擴充功能：嵌入瀏覽器裡已登入的 ChatGPT，依目前頁面或選取文字組成繁中提示詞（摘要／翻譯／解釋／大綱），只寫入輸入框、不自動送出。
+
+[Chrome Web Store / Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/chatgpt-sidebar-embedded/kilnbieekgofpkgbhohmogcjkebfflkd)
+
+`JavaScript` `Chrome MV3` `Side Panel` `Local-first`
+
 ### [聲成文 VoxProse](https://github.com/SanHsien/voxprose)
 
 Local-first voice typing for Windows: hotkey recording, on-device Faster-Whisper transcription, optional LLM rewriting and translation, typed straight into the focused app.
