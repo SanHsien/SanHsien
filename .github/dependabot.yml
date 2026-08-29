@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # GitHub profile repo：只有 README.md、AGENTS.md 與一張圖，沒有任何套件 manifest。
+  # 目前也還沒有任何 workflow，所以下面這條現在追不到東西；留著是為了第一支
+  # workflow 進來的當下就有人看著它釘住的 action 版本，不必再想起要補設定。
+  # fleet-waiver: freshness -- profile repo 沒有套件 manifest，沒有宣告下限可以拿來比對
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Asia/Taipei"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "github-actions"
