@@ -4,6 +4,18 @@ updates:
   # 目前也還沒有任何 workflow，所以下面這條現在追不到東西；留著是為了第一支
   # workflow 進來的當下就有人看著它釘住的 action 版本，不必再想起要補設定。
   # fleet-waiver: freshness -- profile repo 沒有套件 manifest，沒有宣告下限可以拿來比對
+  #
+  # 這個 repo 追蹤的檔案只有 README.md、AGENTS.md 與一張 banner 圖：
+  #
+  # - 沒有任何程式碼，所以 CodeQL 沒有東西可以掃。語言矩陣要對得上真正有的程式碼，
+  #   加一份掃不到東西的設定不會讓這裡更安全。
+  # - 沒有可執行的東西可以測。README 的 30 條連結**全部是外部 URL**，而艦隊的
+  #   check_links.py 只驗相對連結——搬過來會是一支什麼都沒驗的 workflow，
+  #   正是 AGENTS.md 說的裝飾用 workflow。
+  #
+  # 觸發條件：這個 repo 開始放程式碼，或 README 開始有相對連結，兩條就要重評。
+  # fleet-waiver: codeql -- profile repo 沒有任何程式碼可掃
+  # fleet-waiver: ci -- 沒有可執行的東西可測；README 連結全為外部 URL，相對連結檢查驗不到
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
