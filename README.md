@@ -4,9 +4,9 @@
 
 # SanHsien
 
-I build practical, Windows-first tools and AI-assisted workflows — local-first, with clear boundaries and verifiable releases. Every project starts from a real workflow problem and ends at something people can actually download and run.
+I build and maintain practical, local-first tools and AI workflows—Windows-first when desktop integration matters. My public work spans desktop utilities, self-hosted assistants, browser tools, and verifiable agent workflows.
 
-我做實用的 Windows 優先工具與 AI 協作流程，重視本機優先、清楚邊界、可驗證交付。每個專案都從實際的工作流程痛點出發，做到能下載、能執行為止。
+我打造並維護實用的本機優先工具與 AI 工作流程；需要桌面整合時以 Windows 優先。公開作品涵蓋桌面工具、自架助理、瀏覽器工具，以及可驗證的 agent 工作流程。
 
 ## Featured Projects / 精選作品
 
@@ -60,12 +60,12 @@ Derived from `xikhar/persona`, independently maintained.
 
 `TypeScript` `Electron` `Three.js` `VRM / VRMA` `MCP`
 
-## Agent Skills & Tooling / Agent 技能與開發套件
+## Developer Workflows & Agent Tooling / 開發工作流程與 Agent 工具
 
-Developer-facing work for AI coding agents — original engineering references and independently maintained Windows-first forks, aimed at agent workflows rather than at general users.
-給 AI coding agent 的開發向作品：原創工程參考專案與 Windows-first 維護型 fork，服務 agent 工作流，不是一般使用者下載即用的 App。
+Developer-facing tools and engineering references for AI-assisted development, including original projects and clearly attributed maintenance forks.
+給 AI 輔助開發使用的工具與工程參考，包含原創專案與清楚標示上游來源的維護型 fork。
 
-**AI coding governance stack ｜ AI coding 治理堆疊** — four repos constraining agents at four layers, each usable on its own. 四個 repo 分別約束 agent 的四個層面，也可以單獨使用。
+**Selected AI coding governance stack ｜精選 AI coding 治理堆疊** — four repos constraining agents at four layers, each usable on its own. 四個 repo 分別約束 agent 的四個層面，也可以單獨使用。
 
 | Layer / 層 | Repo | |
 | --- | --- | --- |
@@ -78,6 +78,7 @@ Developer-facing work for AI coding agents — original engineering references a
 
 | Repo | | |
 | --- | --- | --- |
+| [github-stars-organizer-playbook](https://github.com/SanHsien/github-stars-organizer-playbook) | Dry-run-first GitHub Stars Lists workflow with GraphQL batching and verification ｜先預覽、分批更新並重驗的 GitHub Stars Lists 整理流程 | `Python` original |
 | [MyR2D2](https://github.com/SanHsien/MyR2D2) | Ten Claude Code skills against session amnesia: save-and-verify before shutdown, handoff and pickup between sessions, daily and weekly debriefs, self-check before reporting, and second review by a different model ｜十支對抗 session 失憶的 skills：收工前落地並驗證、跨 session 交接與接手、日結週結、回報前自檢，以及交給另一個模型的二審 | `Python` fork of [`tingyulu/MyR2D2`](https://github.com/tingyulu/MyR2D2) |
 | [opencodex](https://github.com/SanHsien/opencodex) | Universal provider proxy — run Codex or Claude Code on Claude, Gemini, Grok, DeepSeek, or local Ollama, native model picker intact ｜通用供應商代理，讓 Codex／Claude Code 改用任何 LLM，選擇器仍是原生的 | `TypeScript` fork of [`lidge-jun/opencodex`](https://github.com/lidge-jun/opencodex) |
 | [agentdeck](https://github.com/SanHsien/agentdeck) | Windows tray cockpit: quota monitoring, multi-model roundtable, subagent roles, HTML reports; quota read from local files only ｜系統匣控制台：額度監看、多模型圓桌、subagent 角色、HTML 報告，額度只讀本機檔案 | `Python` fork of `aqua5230/usage` |
@@ -93,18 +94,19 @@ Developer-facing work for AI coding agents — original engineering references a
 - **Explicit boundaries** ｜**寫明邊界** — licensing, platform rules, unsupported cases, and operational risks are stated, not implied.
 - **AI-assisted, still verified** ｜**AI 協作但仍要驗證** — agents speed up prototyping and docs; releases still need tests, packaging, and stated limits.
 
-Recurring themes across the projects: bringing AI into interfaces people already use, and automating repetitive media, document, and operational work.
-專案共通的主題：把 AI 放進使用者本來就在用的介面，以及把媒體、文件與日常作業的重複工作自動化。
+Recurring themes across the projects: local-first applications, AI in interfaces people already use, and verifiable workflows that turn repetitive work into bounded automation.
+專案共通的主題：本機優先的應用程式、把 AI 放進使用者本來就在用的介面，以及把重複工作轉成有界且可驗證的自動化流程。
 
-## Earlier & Private Work / 過往與非公開作品
+## Boundaries / 邊界
 
-Excel/VBA business automation, Palm and Android field applications, web-based submission and review systems, and internal operational tools. Private and organizational projects are described by capability only.
-Excel/VBA 營運自動化、Palm 與 Android 行動程式、線上填報／審查系統、組織內部作業工具。私人或組織型專案僅描述能力，不公開可識別資訊與正式資料。
+Private and organization-specific work stays private; this page highlights public personal projects and selected open-source maintenance work.
+私人與組織專案維持不公開；本頁只展示公開的個人作品與精選的開源維護工作。
 
 ## Tools / 工具
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
 ![PyInstaller](https://img.shields.io/badge/PyInstaller-306998?logo=python&logoColor=white)
