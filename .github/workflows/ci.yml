@@ -1,0 +1,50 @@
+name: CI
+
+# 這個 repo 是對外的門面，不是程式專案：沒有程式碼、沒有套件 manifest、沒有可執行的東西。
+# 之前為此掛了 `# fleet-waiver: ci`，理由是「README 連結全為外部 URL，相對連結檢查驗不到」。
+# 那句話有一半不成立——README 有一張相對路徑的 banner 圖——而且它問錯了問題。
+#
+# 對 profile README 來說，會安靜壞掉的不是語法，是**指向的東西不見了**：repo 被改名、
+# 轉私有、封存，首頁就是一排 404，而沒有任何人會收到通知。這支 workflow 驗的就是那件事，
+# 用 GitHub API 查，不抓網頁；shields.io badge、社群個人頁、Chrome Web Store 這些第三方
+# 服務刻意不驗，因為它們會間歇性紅燈，把那種東西放進必要檢查只會養成「紅了就重跑」的習慣。
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  schedule:
+    # repo 改名／轉私有不會有 push 來觸發檢查，所以每週自己看一次。
+    - cron: "0 23 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  links:
+    name: profile 連結檢查
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 檢出程式碼
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: 設定 Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.14"
+
+      - name: 驗證 README 指向的東西還在
+        env:
+          # 匿名呼叫 GitHub API 會被限流成 403，那是檢查跑不完、不是連結壞掉。
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/check_profile_links.py
