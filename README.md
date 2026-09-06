@@ -4,9 +4,9 @@
 
 # SanHsien
 
-I build and maintain practical, local-first tools and AI workflows—Windows-first when desktop integration matters. My public work spans desktop utilities, self-hosted assistants, browser tools, and verifiable agent workflows.
+I build and maintain practical, local-first tools and AI workflows—Windows-first when desktop integration matters. My public work spans desktop utilities, self-hosted assistants, browser tools, and agent governance tooling.
 
-我打造並維護實用的本機優先工具與 AI 工作流程；需要桌面整合時以 Windows 優先。公開作品涵蓋桌面工具、自架助理、瀏覽器工具，以及可驗證的 agent 工作流程。
+我打造並維護實用的本機優先工具與 AI 工作流程；需要桌面整合時以 Windows 優先。公開作品涵蓋桌面工具、自架助理、瀏覽器工具，以及 agent 治理工具。
 
 ## Featured Projects / 精選作品
 
@@ -65,14 +65,24 @@ Derived from `xikhar/persona`, independently maintained.
 Developer-facing tools and engineering references for AI-assisted development, including original projects and clearly attributed maintenance forks.
 給 AI 輔助開發使用的工具與工程參考，包含原創專案與清楚標示上游來源的維護型 fork。
 
-**Selected AI coding governance stack ｜精選 AI coding 治理堆疊** — four repos constraining agents at four layers, each usable on its own. 四個 repo 分別約束 agent 的四個層面，也可以單獨使用。
+**AI governance ｜AI 治理** — the recurring aim is to make agent behaviour constrainable and provable, not merely requested in a prompt. Two distinct scopes: the coding agent that writes on my behalf, and autonomous agents once they are deployed.
+這裡持續在做的事，是讓 agent 的行為變成可約束、可舉證的，而不是只用提示詞請它照做。兩個範圍不同：替我寫程式的 coding agent，以及上線後自主運行的 agent。
+
+**Coding-agent governance ｜Coding agent 治理** — five layers, each usable on its own. 五個層面，每層都可以單獨使用。
 
 | Layer / 層 | Repo | |
 | --- | --- | --- |
+| Supply chain / 供應鏈 | [SkillSpector](https://github.com/SanHsien/SkillSpector) | Scan an agent skill before installing it: static rules plus optional LLM analysis, a risk score, and a `SAFE` / `CAUTION` / `DO_NOT_INSTALL` call — runnable as a skill or as an MCP install gate ｜安裝 agent skill 前先掃描：靜態規則加可選的 LLM 分析、風險分數與安裝建議，可當 skill 或 MCP 安裝閘門 |
 | Dispatch / 派工決策 | [agent-advisor](https://github.com/SanHsien/agent-advisor) | Risk-gated routing across four agent runtimes ｜四種 agent runtime 的風險分流路由 |
 | Execution / 動作攔截 | [harness-guard](https://github.com/SanHsien/harness-guard) | Runtime hooks blocking dangerous commands, unevidenced completion claims, commits over failing tests ｜攔截危險指令、無證據的完成宣稱、紅燈仍提交 |
 | Output / 產出品質 | [ai-quality-gates](https://github.com/SanHsien/ai-quality-gates) | Gherkin specs, coverage and mutation gates, architecture contracts, bounded agent-loop policy ｜可執行規格、覆蓋率與 mutation gate、架構契約、有界 loop policy |
 | Delivery / 交付流程 | [paulsha-cortex](https://github.com/SanHsien/paulsha-cortex) | Candidate, verification, independent review, completion evidence ｜候選、驗證、獨立審查與完成證據 |
+
+**Deployed-agent governance ｜上線 agent 治理**
+
+| Repo | | |
+| --- | --- | --- |
+| [agent-governance-toolkit](https://github.com/SanHsien/agent-governance-toolkit) | Policy enforcement, zero-trust agent identity, execution sandboxing, and tamper-evident audit records for autonomous agents in production — answering what an agent is allowed to do, which agent did it, and how you prove it afterwards ｜為上線的自主 agent 提供政策強制、零信任身分、沙箱執行與可稽核記錄；回答的是「這個動作准不准」「是哪一個 agent 做的」「事後怎麼舉證」 | `Python` fork of [`microsoft/agent-governance-toolkit`](https://github.com/microsoft/agent-governance-toolkit) |
 
 **Other agent tooling ｜ 其他 agent 工具**
 
