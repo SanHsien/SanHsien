@@ -94,6 +94,21 @@ Developer-facing tools and engineering references for AI-assisted development, i
 | [agentdeck](https://github.com/SanHsien/agentdeck) | Windows tray cockpit: quota monitoring, multi-model roundtable, subagent roles, HTML reports; quota read from local files only ｜系統匣控制台：額度監看、多模型圓桌、subagent 角色、HTML 報告，額度只讀本機檔案 | `Python` fork of `aqua5230/usage` |
 | [book-to-skill](https://github.com/SanHsien/book-to-skill) | Turn a technical book or docs folder into on-demand Agent Skills — load the relevant chapter, not the whole book ｜把技術書或文件夾轉成按需載入的 Agent 技能，只載入用得到的那一章 | `Python` fork of [`virgiliojr94/book-to-skill`](https://github.com/virgiliojr94/book-to-skill) |
 
+## Index / 專案索引
+
+Public repositories grouped by purpose. Each "all" link is a live topic filter, so newly published work appears without this page being edited. Maintenance forks follow upstream for product direction; the fork adds Windows-first verification and Traditional Chinese docs.
+公開 repo 依用途分組。每個「全部」連結都是即時的 topic 篩選，新作品會自動出現，不需要改這一頁。維護型 fork 的產品方向以上游為準，本維護線補的是 Windows 優先驗證與繁中文件。
+
+| Category / 類別 | Selected / 精選 | |
+| --- | --- | --- |
+| **AI governance**<br>AI 治理 | Five layers constraining the coding agent, plus one for deployed agents — [see the tables above](#developer-workflows--agent-tooling--開發工作流程與-agent-工具) ｜約束 coding agent 的五層，外加上線 agent 一層，見上方表格 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aai-governance&type=public) |
+| **Agent skills**<br>Agent 技能包 | [agent-skills](https://github.com/SanHsien/agent-skills) spec→ship 工程流程 · [MyR2D2](https://github.com/SanHsien/MyR2D2) 跨模型二審與防失憶 · [book-to-skill](https://github.com/SanHsien/book-to-skill) 技術書轉按需技能 · [diagram-design](https://github.com/SanHsien/diagram-design) 編輯級 HTML／SVG 圖表 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aagent-skills&type=public) |
+| **Agent runtime & tooling**<br>Agent runtime 與工具鏈 | [opencodex](https://github.com/SanHsien/opencodex) 換掉 agent 背後的 LLM · [agentdeck](https://github.com/SanHsien/agentdeck) Windows 系統匣額度控制台 · [OpenSpec](https://github.com/SanHsien/OpenSpec) 規範驅動開發 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aagent-runtime&type=public) |
+| **Local-first desktop**<br>本機桌面工具 | [openshelf](https://github.com/SanHsien/openshelf) Google Play 圖書批次匯出 · [channeldepot](https://github.com/SanHsien/channeldepot) YouTube 頻道保存 · [voxprose](https://github.com/SanHsien/voxprose) 本機語音輸入 · [voxavatar](https://github.com/SanHsien/voxavatar) VRM 桌面角色 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Alocal-first&type=public) |
+| **Assistants & interfaces**<br>助理與介面 | [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant) 自架 LINE 助理 · [chatgpt-sidebar](https://github.com/SanHsien/chatgpt-sidebar) Chrome 側邊欄 · [khoj](https://github.com/SanHsien/khoj) 自架第二大腦 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aai-assistant&type=public) |
+| **Content production**<br>內容產製 | [html-anything](https://github.com/SanHsien/html-anything) agent 寫 HTML 直接出版 · [hyperframes](https://github.com/SanHsien/hyperframes) 用 HTML 渲染影片 · [video-autopilot-kit](https://github.com/SanHsien/video-autopilot-kit) 影片流程自動化 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Acontent-creation&type=public) |
+| **Other**<br>其他 | [github-stars-organizer-playbook](https://github.com/SanHsien/github-stars-organizer-playbook) Stars Lists 整理流程 · [public-apis](https://github.com/SanHsien/public-apis) 免費 API 目錄 · [gpt-ai-assistant-docs](https://github.com/SanHsien/gpt-ai-assistant-docs) 文件站 | |
+
 [Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
 
 ## How I Work / 工作方式
