@@ -96,12 +96,12 @@ Developer-facing tools and engineering references for AI-assisted development, i
 
 ## Index / 專案索引
 
-Public repositories grouped by purpose. Each "all" link is a live topic filter, so newly published work appears without this page being edited. Maintenance forks follow upstream for product direction; the fork adds Windows-first verification and Traditional Chinese docs.
-公開 repo 依用途分組。每個「全部」連結都是即時的 topic 篩選，新作品會自動出現，不需要改這一頁。維護型 fork 的產品方向以上游為準，本維護線補的是 Windows 優先驗證與繁中文件。
+Public repositories grouped by purpose — a few highlights per row, then the full list.
+公開 repo 依用途分組，每列先列幾個代表作，再連到該類完整清單。
 
 | Category / 類別 | Selected / 精選 | |
 | --- | --- | --- |
-| **AI governance**<br>AI 治理 | Five layers constraining the coding agent, plus one for deployed agents — detailed in the two tables directly above ｜約束 coding agent 的五層，外加上線 agent 一層，細節見正上方的兩張表 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aai-governance&type=public) |
+| **AI governance**<br>AI 治理 | [SkillSpector](https://github.com/SanHsien/SkillSpector) 安裝前掃描 · [agent-advisor](https://github.com/SanHsien/agent-advisor) 風險分流派工 · [harness-guard](https://github.com/SanHsien/harness-guard) 動作攔截 · [ai-quality-gates](https://github.com/SanHsien/ai-quality-gates) 產出關卡 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aai-governance&type=public) |
 | **Agent skills**<br>Agent 技能包 | [agent-skills](https://github.com/SanHsien/agent-skills) spec→ship 工程流程 · [MyR2D2](https://github.com/SanHsien/MyR2D2) 跨模型二審與防失憶 · [book-to-skill](https://github.com/SanHsien/book-to-skill) 技術書轉按需技能 · [diagram-design](https://github.com/SanHsien/diagram-design) 編輯級 HTML／SVG 圖表 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aagent-skills&type=public) |
 | **Agent runtime & tooling**<br>Agent runtime 與工具鏈 | [opencodex](https://github.com/SanHsien/opencodex) 換掉 agent 背後的 LLM · [agentdeck](https://github.com/SanHsien/agentdeck) Windows 系統匣額度控制台 · [OpenSpec](https://github.com/SanHsien/OpenSpec) 規範驅動開發 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aagent-runtime&type=public) |
 | **Local-first desktop**<br>本機桌面工具 | [openshelf](https://github.com/SanHsien/openshelf) Google Play 圖書批次匯出 · [channeldepot](https://github.com/SanHsien/channeldepot) YouTube 頻道保存 · [voxprose](https://github.com/SanHsien/voxprose) 本機語音輸入 · [voxavatar](https://github.com/SanHsien/voxavatar) VRM 桌面角色 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Alocal-first&type=public) |
