@@ -22,7 +22,8 @@ Batch-export books you legally own in Google Play Books: DRM-free titles downloa
 Self-hosted personal AI assistant inside LINE — chat, voice, vision, search, schedules, tasks, reminders, weather — on your own OpenAI, LINE, and Supabase credentials. "AI finished" and "LINE delivered" are separate checkpoints, so a delivery retry never re-runs paid AI work.
 可自架的 LINE 個人 AI 助理：聊天、語音、圖片、搜尋、行程、任務、提醒、天氣，全跑在自己的帳號上。「AI 已完成」與「LINE 已送達」是兩個 checkpoint，送達重試不會重跑已付費的 AI 工作。
 
-[Documentation site / 文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/) · Derived from `memochou1993/gpt-ai-assistant`, independently maintained.
+[Documentation site / 文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/) · Derived from [`memochou1993/gpt-ai-assistant`](https://github.com/memochou1993/gpt-ai-assistant), independently maintained.
+衍生自 [`memochou1993/gpt-ai-assistant`](https://github.com/memochou1993/gpt-ai-assistant)，獨立維護。
 
 `JavaScript` `Node.js 24` `Vercel` `Supabase` `LINE Messaging API` `Google Calendar / Tasks`
 
@@ -40,7 +41,8 @@ Chrome MV3 側邊欄擴充功能：嵌入瀏覽器裡已登入的 ChatGPT，依�
 Local-first voice typing for Windows: hotkey recording, on-device Faster-Whisper transcription, optional LLM rewriting and translation, typed straight into the focused app.
 Windows 本機語音輸入：快捷鍵錄音、本機 Faster-Whisper 辨識、可選 LLM 潤飾與翻譯，直接輸入目前作用中的程式。
 
-Derived from VoiceType4TW, independently maintained.
+Derived from [`jfamily4tw/voicetype4tw-mac`](https://github.com/jfamily4tw/voicetype4tw-mac), independently maintained.
+衍生自 [`jfamily4tw/voicetype4tw-mac`](https://github.com/jfamily4tw/voicetype4tw-mac)，獨立維護。
 
 `Python` `PyQt6` `Faster-Whisper` `CUDA` `Windows`
 
@@ -56,7 +58,8 @@ Portable YouTube channel archiving with GUI and CLI: batch workflows, filters, f
 Windows VRM desktop companion that turns an AI assistant's playback into lip sync, motion, states, and message bubbles; compatible agents drive it over a loopback-only MCP server.
 Windows VRM 桌面角色：把 AI 助理的聲音轉成口型、動作、狀態與訊息氣泡，相容 Agent 可經僅限本機的 MCP 控制。
 
-Derived from `xikhar/persona`, independently maintained.
+Derived from [`xikhar/persona`](https://github.com/xikhar/persona), independently maintained.
+衍生自 [`xikhar/persona`](https://github.com/xikhar/persona)，獨立維護。
 
 `TypeScript` `Electron` `Three.js` `VRM / VRMA` `MCP`
 
@@ -84,16 +87,6 @@ Developer-facing tools and engineering references for AI-assisted development, i
 | --- | --- | --- |
 | [agent-governance-toolkit](https://github.com/SanHsien/agent-governance-toolkit) | Policy enforcement, zero-trust agent identity, execution sandboxing, and tamper-evident audit records for autonomous agents in production — answering what an agent is allowed to do, which agent did it, and how you prove it afterwards ｜為上線的自主 agent 提供政策強制、零信任身分、沙箱執行與可稽核記錄；回答的是「這個動作准不准」「是哪一個 agent 做的」「事後怎麼舉證」 | `Python` fork of [`microsoft/agent-governance-toolkit`](https://github.com/microsoft/agent-governance-toolkit) |
 
-**Other agent tooling ｜ 其他 agent 工具**
-
-| Repo | | |
-| --- | --- | --- |
-| [github-stars-organizer-playbook](https://github.com/SanHsien/github-stars-organizer-playbook) | Dry-run-first GitHub Stars Lists workflow with GraphQL batching and verification ｜先預覽、分批更新並重驗的 GitHub Stars Lists 整理流程 | `Python` original |
-| [MyR2D2](https://github.com/SanHsien/MyR2D2) | Ten Claude Code skills against session amnesia: save-and-verify before shutdown, handoff and pickup between sessions, daily and weekly debriefs, self-check before reporting, and second review by a different model ｜十支對抗 session 失憶的 skills：收工前落地並驗證、跨 session 交接與接手、日結週結、回報前自檢，以及交給另一個模型的二審 | `Python` fork of [`tingyulu/MyR2D2`](https://github.com/tingyulu/MyR2D2) |
-| [opencodex](https://github.com/SanHsien/opencodex) | Universal provider proxy — run Codex or Claude Code on Claude, Gemini, Grok, DeepSeek, or local Ollama, native model picker intact ｜通用供應商代理，讓 Codex／Claude Code 改用任何 LLM，選擇器仍是原生的 | `TypeScript` fork of [`lidge-jun/opencodex`](https://github.com/lidge-jun/opencodex) |
-| [agentdeck](https://github.com/SanHsien/agentdeck) | Windows tray cockpit: quota monitoring, multi-model roundtable, subagent roles, HTML reports; quota read from local files only ｜系統匣控制台：額度監看、多模型圓桌、subagent 角色、HTML 報告，額度只讀本機檔案 | `Python` fork of `aqua5230/usage` |
-| [book-to-skill](https://github.com/SanHsien/book-to-skill) | Turn a technical book or docs folder into on-demand Agent Skills — load the relevant chapter, not the whole book ｜把技術書或文件夾轉成按需載入的 Agent 技能，只載入用得到的那一章 | `Python` fork of [`virgiliojr94/book-to-skill`](https://github.com/virgiliojr94/book-to-skill) |
-
 ## Index / 專案索引
 
 Public repositories grouped by purpose — a few highlights per row, then the full list.
@@ -101,23 +94,28 @@ Public repositories grouped by purpose — a few highlights per row, then the fu
 
 | Category / 類別 | Selected / 精選 | |
 | --- | --- | --- |
-| **AI governance**<br>AI 治理 | [SkillSpector](https://github.com/SanHsien/SkillSpector) 安裝前掃描 · [agent-advisor](https://github.com/SanHsien/agent-advisor) 風險分流派工 · [harness-guard](https://github.com/SanHsien/harness-guard) 動作攔截 · [ai-quality-gates](https://github.com/SanHsien/ai-quality-gates) 產出關卡 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aai-governance&type=public) |
-| **Agent skills**<br>Agent 技能包 | [agent-skills](https://github.com/SanHsien/agent-skills) spec→ship 工程流程 · [MyR2D2](https://github.com/SanHsien/MyR2D2) 跨模型二審與防失憶 · [book-to-skill](https://github.com/SanHsien/book-to-skill) 技術書轉按需技能 · [diagram-design](https://github.com/SanHsien/diagram-design) 編輯級 HTML／SVG 圖表 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aagent-skills&type=public) |
-| **Agent runtime & tooling**<br>Agent runtime 與工具鏈 | [opencodex](https://github.com/SanHsien/opencodex) 換掉 agent 背後的 LLM · [agentdeck](https://github.com/SanHsien/agentdeck) Windows 系統匣額度控制台 · [OpenSpec](https://github.com/SanHsien/OpenSpec) 規範驅動開發 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aagent-runtime&type=public) |
-| **Local-first desktop**<br>本機桌面工具 | [openshelf](https://github.com/SanHsien/openshelf) Google Play 圖書批次匯出 · [channeldepot](https://github.com/SanHsien/channeldepot) YouTube 頻道保存 · [voxprose](https://github.com/SanHsien/voxprose) 本機語音輸入 · [voxavatar](https://github.com/SanHsien/voxavatar) VRM 桌面角色 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Alocal-first&type=public) |
-| **Assistants & interfaces**<br>助理與介面 | [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant) 自架 LINE 助理 · [chatgpt-sidebar](https://github.com/SanHsien/chatgpt-sidebar) Chrome 側邊欄 · [khoj](https://github.com/SanHsien/khoj) 自架第二大腦 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aai-assistant&type=public) |
-| **Content production**<br>內容產製 | [html-anything](https://github.com/SanHsien/html-anything) agent 寫 HTML 直接出版 · [hyperframes](https://github.com/SanHsien/hyperframes) 用 HTML 渲染影片 · [video-autopilot-kit](https://github.com/SanHsien/video-autopilot-kit) 影片流程自動化 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Acontent-creation&type=public) |
-| **Other**<br>其他 | [github-stars-organizer-playbook](https://github.com/SanHsien/github-stars-organizer-playbook) Stars Lists 整理流程 · [public-apis](https://github.com/SanHsien/public-apis) 免費 API 目錄 · [gpt-ai-assistant-docs](https://github.com/SanHsien/gpt-ai-assistant-docs) 文件站 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Amisc&type=public) |
+| **AI governance**<br>AI 治理 | [SkillSpector](https://github.com/SanHsien/SkillSpector) scan before install ｜安裝前掃描 · [agent-advisor](https://github.com/SanHsien/agent-advisor) risk-gated dispatch ｜風險分流派工 · [harness-guard](https://github.com/SanHsien/harness-guard) runtime hooks ｜動作攔截 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aai-governance&type=public) |
+| **Agent skills**<br>Agent 技能包 | [agent-skills](https://github.com/SanHsien/agent-skills) spec→ship flow ｜工程流程 · [MyR2D2](https://github.com/SanHsien/MyR2D2) cross-model review ｜跨模型二審 · [book-to-skill](https://github.com/SanHsien/book-to-skill) books as skills ｜技術書轉技能 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aagent-skills&type=public) |
+| **Agent runtime & tooling**<br>Agent runtime 與工具鏈 | [opencodex](https://github.com/SanHsien/opencodex) swap the LLM ｜換掉背後的 LLM · [agentdeck](https://github.com/SanHsien/agentdeck) tray quota cockpit ｜系統匣額度控制台 · [OpenSpec](https://github.com/SanHsien/OpenSpec) spec-driven development ｜規範驅動開發 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aagent-runtime&type=public) |
+| **Local-first desktop**<br>本機桌面工具 | [openshelf](https://github.com/SanHsien/openshelf) export your books ｜圖書批次匯出 · [channeldepot](https://github.com/SanHsien/channeldepot) archive channels ｜頻道保存 · [voxprose](https://github.com/SanHsien/voxprose) on-device dictation ｜本機語音輸入 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Alocal-first&type=public) |
+| **Assistants & interfaces**<br>助理與介面 | [gpt-ai-assistant](https://github.com/SanHsien/gpt-ai-assistant) assistant inside LINE ｜自架 LINE 助理 · [chatgpt-sidebar](https://github.com/SanHsien/chatgpt-sidebar) browser side panel ｜瀏覽器側邊欄 · [khoj](https://github.com/SanHsien/khoj) self-hosted second brain ｜自架第二大腦 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Aai-assistant&type=public) |
+| **Content production**<br>內容產製 | [html-anything](https://github.com/SanHsien/html-anything) agent writes the HTML ｜agent 寫 HTML · [hyperframes](https://github.com/SanHsien/hyperframes) render video from HTML ｜用 HTML 渲染影片 · [video-autopilot-kit](https://github.com/SanHsien/video-autopilot-kit) video pipeline ｜影片流程自動化 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Acontent-creation&type=public) |
+| **Other**<br>其他 | [github-stars-organizer-playbook](https://github.com/SanHsien/github-stars-organizer-playbook) Stars Lists workflow ｜Stars Lists 整理 · [public-apis](https://github.com/SanHsien/public-apis) free API directory ｜免費 API 目錄 · [gpt-ai-assistant-docs](https://github.com/SanHsien/gpt-ai-assistant-docs) documentation site ｜文件站 | [all →](https://github.com/SanHsien?tab=repositories&q=topic%3Amisc&type=public) |
 
-[Browse all public repositories →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
+[Browse all public repositories ｜瀏覽全部公開 repo →](https://github.com/SanHsien?tab=repositories&q=&type=public&language=&sort=)
 
 ## How I Work / 工作方式
 
 - **Local-first by default** ｜**預設本機優先** — if it runs on the user's machine, it does not get a hosted backend first.
+  跑得動在使用者自己電腦上的東西，就不先架一個後端。
 - **Release-oriented** ｜**以交付為導向** — downloadable, runnable, verifiable beats a demo.
+  可下載、跑得起來、驗得出來，勝過一個 demo。
 - **Privacy-aware** ｜**重視隱私邊界** — user files, images, and tokens do not go to services that do not need them.
+  使用者的檔案、圖片與憑證，不送去不需要它們的服務。
 - **Explicit boundaries** ｜**寫明邊界** — licensing, platform rules, unsupported cases, and operational risks are stated, not implied.
-- **AI-assisted, still verified** ｜**AI 協作但仍要驗證** — agents speed up prototyping and docs; releases still need tests, packaging, and stated limits.
+  授權、平台規則、不支援的情況與操作風險都寫出來，不靠讀者自己推測。
+- **AI-assisted, still verified** ｜**AI 協作但仍要驗證** — agents do a large share of the writing; what ships still has to pass tests, packaging, and stated limits. The governance repos above exist because "the agent said it was done" is not evidence.
+  程式有很大一部分是 agent 寫的；但要出貨仍得通過測試、打包與寫明的限制。上面那些治理 repo 存在的理由，就是「agent 說做完了」不算證據。
 
 Recurring themes across the projects: local-first applications, AI in interfaces people already use, and verifiable workflows that turn repetitive work into bounded automation.
 專案共通的主題：本機優先的應用程式、把 AI 放進使用者本來就在用的介面，以及把重複工作轉成有界且可驗證的自動化流程。
