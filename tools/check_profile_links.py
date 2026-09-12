@@ -37,6 +37,11 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+# Windows 主控台預設 cp950，編碼不了 ✗（U+2717）會直接 UnicodeEncodeError——
+# 而那只在「有連結壞掉」時才走到，也就是最需要看到輸出的時候整支崩掉。
+# CI 跑在 UTF-8 的 Linux 上，所以這個 bug 在 CI 永遠不會現形。
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 README = REPO_ROOT / "README.md"
 
