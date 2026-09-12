@@ -15,24 +15,23 @@ I build and maintain practical, local-first tools and AI workflows—Windows-fir
 Batch-export books you legally own in Google Play Books: DRM-free titles download as EPUB/PDF, protected ones keep the official `.acsm` handoff for Adobe Digital Editions.
 批次匯出自己合法擁有的 Google Play 圖書：無 DRM 的直接下載 EPUB/PDF，受保護的保留官方 `.acsm` 交接流程。
 
-`Python` `Playwright` `httpx` `Desktop GUI` `Local-first`
+`Python` `Playwright` `httpx` `PySide6` `Local-first`
 
 ### [GPT AI Assistant](https://github.com/SanHsien/gpt-ai-assistant)
 
-Self-hosted personal AI assistant inside LINE — chat, voice, vision, search, schedules, tasks, reminders, weather — on your own OpenAI, LINE, and Supabase credentials. "AI finished" and "LINE delivered" are separate checkpoints, so a delivery retry never re-runs paid AI work.
-可自架的 LINE 個人 AI 助理：聊天、語音、圖片、搜尋、行程、任務、提醒、天氣，全跑在自己的帳號上。「AI 已完成」與「LINE 已送達」是兩個 checkpoint，送達重試不會重跑已付費的 AI 工作。
+Self-hosted personal AI assistant inside LINE — chat, voice, vision, search, schedules, tasks, reminders, weather — running on your own OpenAI, LINE, and Supabase credentials.
+可自架的 LINE 個人 AI 助理：聊天、語音、圖片、搜尋、行程、任務、提醒、天氣，全跑在自己的帳號上。
 
-[Documentation site / 文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/) · Derived from [`memochou1993/gpt-ai-assistant`](https://github.com/memochou1993/gpt-ai-assistant), independently maintained.
-衍生自 [`memochou1993/gpt-ai-assistant`](https://github.com/memochou1993/gpt-ai-assistant)，獨立維護。
+[Documentation site ｜文件站](https://sanhsien.github.io/gpt-ai-assistant-docs/) · Derived from [`memochou1993/gpt-ai-assistant`](https://github.com/memochou1993/gpt-ai-assistant), independently maintained ｜衍生自上游，獨立維護。
 
 `JavaScript` `Node.js 24` `Vercel` `Supabase` `LINE Messaging API` `Google Calendar / Tasks`
 
 ### [ChatGPT Sidebar](https://github.com/SanHsien/chatgpt-sidebar)
 
-Chrome MV3 side panel that embeds the ChatGPT session already signed in on the browser, builds Traditional Chinese prompts from the current page or selection (summary, translate, explain, outline), and inserts them without auto-submit.
-Chrome MV3 側邊欄擴充功能：嵌入瀏覽器裡已登入的 ChatGPT，依目前頁面或選取文字組成繁中提示詞（摘要／翻譯／解釋／大綱），只寫入輸入框、不自動送出。
+Chrome MV3 side panel that embeds the ChatGPT session already signed in on the browser, builds Traditional Chinese prompts from the current page or selection, and inserts them without auto-submit.
+Chrome MV3 側邊欄擴充功能：嵌入瀏覽器裡已登入的 ChatGPT，依目前頁面或選取文字組成繁中提示詞，只寫入輸入框、不自動送出。
 
-[Chrome Web Store / Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/chatgpt-sidebar-embedded/kilnbieekgofpkgbhohmogcjkebfflkd)
+[Chrome Web Store ｜Chrome 線上應用程式商店](https://chromewebstore.google.com/detail/chatgpt-sidebar-embedded/kilnbieekgofpkgbhohmogcjkebfflkd)
 
 `JavaScript` `Chrome MV3` `Side Panel` `Local-first`
 
@@ -41,8 +40,7 @@ Chrome MV3 側邊欄擴充功能：嵌入瀏覽器裡已登入的 ChatGPT，依�
 Local-first voice typing for Windows: hotkey recording, on-device Faster-Whisper transcription, optional LLM rewriting and translation, typed straight into the focused app.
 Windows 本機語音輸入：快捷鍵錄音、本機 Faster-Whisper 辨識、可選 LLM 潤飾與翻譯，直接輸入目前作用中的程式。
 
-Derived from [`jfamily4tw/voicetype4tw-mac`](https://github.com/jfamily4tw/voicetype4tw-mac), independently maintained.
-衍生自 [`jfamily4tw/voicetype4tw-mac`](https://github.com/jfamily4tw/voicetype4tw-mac)，獨立維護。
+Derived from [`jfamily4tw/voicetype4tw-mac`](https://github.com/jfamily4tw/voicetype4tw-mac), independently maintained ｜衍生自上游，獨立維護。
 
 `Python` `PyQt6` `Faster-Whisper` `CUDA` `Windows`
 
@@ -51,46 +49,36 @@ Derived from [`jfamily4tw/voicetype4tw-mac`](https://github.com/jfamily4tw/voice
 Portable YouTube channel archiving with GUI and CLI: batch workflows, filters, ffmpeg integration, and content the signed-in user is already authorized to watch.
 可攜式 YouTube 頻道保存工具，GUI 與 CLI 並具：批次工作流、篩選、ffmpeg 整合，也支援登入者原本就有權觀看的內容。
 
-`Python` `yt-dlp` `Tkinter` `ffmpeg` `Windows / macOS / Linux`
+`Python` `yt-dlp` `Tkinter` `ffmpeg` `Windows EXE｜macOS / Linux from source`
 
 ### [VoxAvatar](https://github.com/SanHsien/voxavatar)
 
 Windows VRM desktop companion that turns an AI assistant's playback into lip sync, motion, states, and message bubbles; compatible agents drive it over a loopback-only MCP server.
 Windows VRM 桌面角色：把 AI 助理的聲音轉成口型、動作、狀態與訊息氣泡，相容 Agent 可經僅限本機的 MCP 控制。
 
-Derived from [`xikhar/persona`](https://github.com/xikhar/persona), independently maintained.
-衍生自 [`xikhar/persona`](https://github.com/xikhar/persona)，獨立維護。
+Derived from [`xikhar/persona`](https://github.com/xikhar/persona), independently maintained ｜衍生自上游，獨立維護。
 
 `TypeScript` `Electron` `Three.js` `VRM / VRMA` `MCP`
 
-## Developer Workflows & Agent Tooling / 開發工作流程與 Agent 工具
+## AI Governance / AI 治理
 
-Developer-facing tools and engineering references for AI-assisted development, including original projects and clearly attributed maintenance forks.
-給 AI 輔助開發使用的工具與工程參考，包含原創專案與清楚標示上游來源的維護型 fork。
+Making agent behaviour constrainable and provable, not merely requested in a prompt. Two distinct scopes: the coding agent that writes on my behalf, and autonomous agents once they are deployed.
+讓 agent 的行為變成可約束、可舉證的，而不是只用提示詞請它照做。兩個範圍不同：替我寫程式的 coding agent，以及上線後自主運行的 agent。
 
-**AI governance ｜AI 治理** — the recurring aim is to make agent behaviour constrainable and provable, not merely requested in a prompt. Two distinct scopes: the coding agent that writes on my behalf, and autonomous agents once they are deployed.
-這裡持續在做的事，是讓 agent 的行為變成可約束、可舉證的，而不是只用提示詞請它照做。兩個範圍不同：替我寫程式的 coding agent，以及上線後自主運行的 agent。
-
-**Coding-agent governance ｜Coding agent 治理** — five layers, each usable on its own. 五個層面，每層都可以單獨使用。
+**Coding agent — five layers, each usable on its own ｜Coding agent 治理，五層，每層都可以單獨使用**
 
 | Layer / 層 | Repo | |
 | --- | --- | --- |
-| Supply chain / 供應鏈 | [SkillSpector](https://github.com/SanHsien/SkillSpector) | Scan an agent skill before installing it: static rules plus optional LLM analysis, a risk score, and a `SAFE` / `CAUTION` / `DO_NOT_INSTALL` call — runnable as a skill or as an MCP install gate ｜安裝 agent skill 前先掃描：靜態規則加可選的 LLM 分析、風險分數與安裝建議，可當 skill 或 MCP 安裝閘門 |
+| Supply chain / 供應鏈 | [SkillSpector](https://github.com/SanHsien/SkillSpector) | Scan an agent skill before installing it: risk score plus a `SAFE` / `CAUTION` / `DO_NOT_INSTALL` call, runnable as a skill or an MCP install gate ｜安裝 agent skill 前先掃描，輸出風險分數與安裝建議，可當 skill 或 MCP 閘門 |
 | Dispatch / 派工決策 | [agent-advisor](https://github.com/SanHsien/agent-advisor) | Risk-gated routing across four agent runtimes ｜四種 agent runtime 的風險分流路由 |
 | Execution / 動作攔截 | [harness-guard](https://github.com/SanHsien/harness-guard) | Runtime hooks blocking dangerous commands, unevidenced completion claims, commits over failing tests ｜攔截危險指令、無證據的完成宣稱、紅燈仍提交 |
 | Output / 產出品質 | [ai-quality-gates](https://github.com/SanHsien/ai-quality-gates) | Gherkin specs, coverage and mutation gates, architecture contracts, bounded agent-loop policy ｜可執行規格、覆蓋率與 mutation gate、架構契約、有界 loop policy |
 | Delivery / 交付流程 | [paulsha-cortex](https://github.com/SanHsien/paulsha-cortex) | Candidate, verification, independent review, completion evidence ｜候選、驗證、獨立審查與完成證據 |
 
-**Deployed-agent governance ｜上線 agent 治理**
-
-| Repo | | |
-| --- | --- | --- |
-| [agent-governance-toolkit](https://github.com/SanHsien/agent-governance-toolkit) | Policy enforcement, zero-trust agent identity, execution sandboxing, and tamper-evident audit records for autonomous agents in production — answering what an agent is allowed to do, which agent did it, and how you prove it afterwards ｜為上線的自主 agent 提供政策強制、零信任身分、沙箱執行與可稽核記錄；回答的是「這個動作准不准」「是哪一個 agent 做的」「事後怎麼舉證」 | `Python` fork of [`microsoft/agent-governance-toolkit`](https://github.com/microsoft/agent-governance-toolkit) |
+**Deployed agents ｜上線 agent** — [agent-governance-toolkit](https://github.com/SanHsien/agent-governance-toolkit) answers what an agent is allowed to do, which agent did it, and how you prove it afterwards: policy enforcement, zero-trust identity, sandboxing, tamper-evident audit records. `Python` fork of [`microsoft/agent-governance-toolkit`](https://github.com/microsoft/agent-governance-toolkit).
+回答的是「這個動作准不准」「是哪一個 agent 做的」「事後怎麼舉證」：政策強制、零信任身分、沙箱執行與可稽核記錄。
 
 ## Index / 專案索引
-
-Public repositories grouped by purpose — a few highlights per row, then the full list.
-公開 repo 依用途分組，每列先列幾個代表作，再連到該類完整清單。
 
 | Category / 類別 | Selected / 精選 | |
 | --- | --- | --- |
@@ -106,24 +94,12 @@ Public repositories grouped by purpose — a few highlights per row, then the fu
 
 ## How I Work / 工作方式
 
-- **Local-first by default** ｜**預設本機優先** — if it runs on the user's machine, it does not get a hosted backend first.
-  跑得動在使用者自己電腦上的東西，就不先架一個後端。
-- **Release-oriented** ｜**以交付為導向** — downloadable, runnable, verifiable beats a demo.
-  可下載、跑得起來、驗得出來，勝過一個 demo。
-- **Privacy-aware** ｜**重視隱私邊界** — user files, images, and tokens do not go to services that do not need them.
-  使用者的檔案、圖片與憑證，不送去不需要它們的服務。
-- **Explicit boundaries** ｜**寫明邊界** — licensing, platform rules, unsupported cases, and operational risks are stated, not implied.
-  授權、平台規則、不支援的情況與操作風險都寫出來，不靠讀者自己推測。
-- **AI-assisted, still verified** ｜**AI 協作但仍要驗證** — agents do a large share of the writing; what ships still has to pass tests, packaging, and stated limits. The governance repos above exist because "the agent said it was done" is not evidence.
-  程式有很大一部分是 agent 寫的；但要出貨仍得通過測試、打包與寫明的限制。上面那些治理 repo 存在的理由，就是「agent 說做完了」不算證據。
-
-Recurring themes across the projects: local-first applications, AI in interfaces people already use, and verifiable workflows that turn repetitive work into bounded automation.
-專案共通的主題：本機優先的應用程式、把 AI 放進使用者本來就在用的介面，以及把重複工作轉成有界且可驗證的自動化流程。
-
-## Boundaries / 邊界
-
-Private and organization-specific work stays private; this page highlights public personal projects and selected open-source maintenance work.
-私人與組織專案維持不公開；本頁只展示公開的個人作品與精選的開源維護工作。
+- **Local-first by default ｜預設本機優先** — if it runs on the user's machine, it does not get a hosted backend first. 跑得動在使用者自己電腦上的東西，就不先架一個後端。
+- **Release-oriented ｜以交付為導向** — downloadable, runnable, verifiable beats a demo. 可下載、跑得起來、驗得出來，勝過一個 demo。
+- **Privacy-aware ｜重視隱私邊界** — user files, images, and tokens do not go to services that do not need them. 使用者的檔案、圖片與憑證，不送去不需要它們的服務。
+- **Explicit boundaries ｜寫明邊界** — licensing, platform rules, unsupported cases, and operational risks are stated, not implied. 授權、平台規則、不支援的情況與操作風險都寫出來，不靠讀者自己推測。
+- **AI-assisted, still verified ｜AI 協作但仍要驗證** — agents do a large share of the writing; what ships still has to pass tests, packaging, and stated limits. The governance repos above exist because "the agent said it was done" is not evidence. 程式有很大一部分是 agent 寫的，但要出貨仍得通過測試、打包與寫明的限制；上面那些治理 repo 存在的理由，就是「agent 說做完了」不算證據。
+- **Private work stays private ｜私人專案不公開** — this page shows public personal projects and selected open-source maintenance work. 本頁只展示公開的個人作品與精選的開源維護工作。
 
 ## Tools / 工具
 
@@ -136,5 +112,5 @@ Private and organization-specific work stays private; this page highlights publi
 
 ## Elsewhere / 其他平台
 
-- [LinkedIn](https://www.linkedin.com/in/sanhsien/) — professional profile / 專業檔案
+- [LinkedIn](https://www.linkedin.com/in/sanhsien/) — professional profile ｜專業檔案
 - [Facebook](https://www.facebook.com/sanhsien) · [Instagram](https://www.instagram.com/sanhsien/) · [Threads](https://www.threads.com/@sanhsien) · [X](https://x.com/Hsien_3)
