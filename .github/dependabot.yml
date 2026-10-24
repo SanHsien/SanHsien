@@ -1,0 +1,27 @@
+version: 2
+updates:
+  # GitHub profile repo：只有 README.md、AGENTS.md、一張圖與一支連結檢查腳本，
+  # 沒有任何套件 manifest。下面這條追的是 .github/workflows/ci.yml 釘住的 action 版本
+  # ——2026-09-04 起真的有東西可追了。
+  # fleet-waiver: freshness -- 沒有套件 manifest 可比對下限；工作流程釘住的 action 版本
+  #   由本檔的 github-actions 生態系直接追蹤，不需要再跑一支獨立的新鮮度檢查
+  #
+  # - 沒有任何程式碼，所以 CodeQL 沒有東西可以掃。語言矩陣要對得上真正有的程式碼，
+  #   加一份掃不到東西的設定不會讓這裡更安全。觸發條件：這個 repo 開始放程式碼就重評。
+  # fleet-waiver: codeql -- profile repo 沒有應用程式碼可掃；唯一的 .py 是 CI 自己的連結檢查腳本
+  #
+  # `ci` 的 waiver 已於 2026-09-04 撤銷。原本的理由是「README 連結全為外部 URL，
+  # 相對連結檢查驗不到」——那句話有一半不成立（banner 是相對路徑），而且問錯了問題：
+  # profile README 會安靜壞掉的方式是它指向的 repo 被改名或轉私有，首頁變成一排 404
+  # 而沒人收到通知。`tools/check_profile_links.py` 驗的就是那件事，不是裝飾。
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Asia/Taipei"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "github-actions"
