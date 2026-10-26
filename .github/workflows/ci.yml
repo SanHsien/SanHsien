@@ -43,6 +43,9 @@ jobs:
         with:
           python-version: "3.14"
 
+      - name: 單元測試
+        run: python -m unittest discover -s tests
+
       - name: 驗證 README 指向的東西還在
         env:
           # 匿名呼叫 GitHub API 會被限流成 403，那是檢查跑不完、不是連結壞掉。
