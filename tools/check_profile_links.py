@@ -36,6 +36,7 @@ import sys
 import urllib.error
 import urllib.request
 from pathlib import Path
+from urllib.parse import unquote
 
 # Windows 主控台預設 cp950，編碼不了 ✗（U+2717）會直接 UnicodeEncodeError——
 # 而那只在「有連結壞掉」時才走到，也就是最需要看到輸出的時候整支崩掉。
@@ -52,8 +53,10 @@ RELATIVE_HTML = re.compile(r"""(?:src|href)\s*=\s*["'](?!https?:|#|mailto:)([^"'
 # github.com/<owner>/<repo>，排除 github.com/<owner> 這種只有帳號的、以及帶 query 的清單頁。
 REPO_URL = re.compile(r"https://github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+?)(?=[)\s\"'/]|$)")
 
-# 第三方服務：刻意不驗，理由見模組說明。
-SKIP_HOSTS = ("img.shields.io", "chromewebstore.google.com")
+
+def is_inside_repo(path: Path) -> bool:
+    """用路徑比較而非字串字首：`repo-evil` 不是 `repo` 底下。"""
+    return path.is_relative_to(REPO_ROOT)
 
 
 def read_readme() -> list[str]:
@@ -67,7 +70,7 @@ def relative_targets(lines: list[str]) -> list[tuple[int, str]]:
     for number, line in enumerate(lines, start=1):
         for pattern in (RELATIVE_MD, RELATIVE_HTML):
             for match in pattern.finditer(line):
-                target = match.group(1).split("#", 1)[0].strip()
+                target = unquote(match.group(1).split("#", 1)[0].strip())
                 if target:
                     found.append((number, target))
     return found
@@ -76,12 +79,10 @@ def relative_targets(lines: list[str]) -> list[tuple[int, str]]:
 def repo_targets(lines: list[str]) -> list[tuple[int, str, str]]:
     found: list[tuple[int, str, str]] = []
     for number, line in enumerate(lines, start=1):
-        if any(host in line for host in SKIP_HOSTS):
-            continue
+        # 第三方服務（shields.io、Chrome Web Store）刻意不驗：REPO_URL 只收 github.com，
+        # 它們本來就不會被抓到；不能整行略過，否則 badge 包著的 repo 連結會漏驗。
         for match in REPO_URL.finditer(line):
             owner, repo = match.group(1), match.group(2).removesuffix(".git")
-            if repo.startswith("?"):
-                continue
             found.append((number, owner, repo))
     return found
 
@@ -112,7 +113,7 @@ def main() -> int:
     relatives = relative_targets(lines)
     for number, target in relatives:
         path = (REPO_ROOT / target).resolve()
-        if not str(path).startswith(str(REPO_ROOT)):
+        if not is_inside_repo(path):
             failures.append(f"README.md:{number} 相對路徑跑出 repo 之外：{target}")
         elif not path.exists():
             failures.append(f"README.md:{number} 相對路徑不存在：{target}")
