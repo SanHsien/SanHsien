@@ -60,7 +60,6 @@ ANCHORS = (
 # 其實是因為「其他」那一列沒有錨點——用豁免去補分類設計的洞，洞補好就不需要豁免了。
 EXEMPT = {
     "SanHsien": "profile README 本身，不是作品",
-    "buzz": "block/buzz 的 fork，尚未分類（待維護者決定歸哪一類或維持豁免）",
 }
 
 

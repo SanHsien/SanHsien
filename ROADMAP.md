@@ -10,7 +10,6 @@ GitHub profile README（public、非 fork、無 release），附兩支檢查：`
 ## 近期：可以直接動手
 | 項目 | 為什麼 | 驗收方式 | 建議執行者 | 證據 |
 | --- | --- | --- | --- | --- |
-| 決定 `buzz` 歸哪一類，或維持豁免 | `buzz`（上游 block/buzz 的 fork）暫列豁免待維護者分類；README 沒有對應的錨點區塊前，豁免是唯一讓檢查過的做法 | 維護者給出結論後：若分類，則在 GitHub 為 `buzz` 加既有錨點 topic並從 `EXEMPT` 刪除該列，`python tools/check_index_coverage.py` exit 0；若維持豁免，則把 `EXEMPT` 的理由改成定案說明 | 維護者 | `tools/check_index_coverage.py:61-64` |
 | 確認 `health-bank-toolkit` 歸在「其他（misc）」是否合意 | 深掃時暫放 `misc` 錨點；若想歸別類只需改 topic，不需改程式 | 維護者確認，或改 topic 後 `python tools/check_index_coverage.py` exit 0 | 維護者 | `gh api repos/SanHsien/health-bank-toolkit/topics`（2026-10-29 為 `misc`）；深掃報告（2026-10-26） |
 
 ## 中期：等條件成立再做
