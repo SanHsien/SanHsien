@@ -10,7 +10,6 @@ GitHub profile README（public、非 fork、無 release），附兩支檢查：`
 ## 近期：可以直接動手
 | 項目 | 為什麼 | 驗收方式 | 建議執行者 | 證據 |
 | --- | --- | --- | --- | --- |
-| 確認 `health-bank-toolkit` 歸在「其他（misc）」是否合意 | 深掃時暫放 `misc` 錨點；若想歸別類只需改 topic，不需改程式 | 維護者確認，或改 topic 後 `python tools/check_index_coverage.py` exit 0 | 維護者 | `gh api repos/SanHsien/health-bank-toolkit/topics`（2026-10-29 為 `misc`）；深掃報告（2026-10-26） |
 
 ## 中期：等條件成立再做
 | 項目 | 觸發條件 | 驗收方式 | 建議執行者 | 證據 |
